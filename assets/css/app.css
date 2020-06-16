@@ -1,0 +1,72 @@
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+a {
+    color: #ffffff
+}
+
+a:hover {
+    color: #ffffff
+}
+
+/* Header CSS */
+#site-logo #site-logo-inner, .oceanwp-social-menu .social-menu-inner, #site-header.full_screen-header .menu-bar-inner, .after-header-content .after-header-content-inner {
+    height: 140px
+}
+
+#site-navigation-wrap .dropdown-menu > li > a, .oceanwp-mobile-menu-icon a, .after-header-content-inner > a {
+    line-height: 140px
+}
+
+#site-header.transparent-header {
+    background-color: #ffffff
+}
+
+#site-header.has-header-media .overlay-header-media {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#site-logo #site-logo-inner a img, #site-header.center-header #site-navigation-wrap .middle-site-logo a img {
+    max-width: 170px
+}
+
+#site-navigation-wrap .dropdown-menu > li > a, .oceanwp-mobile-menu-icon a, #searchform-header-replace-close {
+    color: #77787b
+}
+
+#site-navigation-wrap .dropdown-menu > li > a:hover, .oceanwp-mobile-menu-icon a:hover, #searchform-header-replace-close:hover {
+    color: #c58c27
+}
+
+.dropdown-menu .sub-menu, #searchform-dropdown, .current-shop-items-dropdown {
+    border-color: #c58c27
+}
+
+.dropdown-menu ul li a.menu-link {
+    color: #000000
+}
+
+/* Footer Bottom CSS */
+#footer-bottom {
+    background-color: #77787b
+}
+
+#footer-bottom, #footer-bottom p {
+    color: #c4c4c4
+}
+
+/* Typography CSS */
+#site-navigation-wrap .dropdown-menu > li > a, #site-header.full_screen-header .fs-dropdown-menu > li > a, #site-header.top-header #site-navigation-wrap .dropdown-menu > li > a, #site-header.center-header #site-navigation-wrap .dropdown-menu > li > a, #site-header.medium-header #site-navigation-wrap .dropdown-menu > li > a, .oceanwp-mobile-menu-icon a {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize
+}
+
+.dropdown-menu ul li a.menu-link, #site-header.full_screen-header .fs-dropdown-menu ul.sub-menu li a {
+    font-family: Montserrat;
+    text-transform: uppercase
+}

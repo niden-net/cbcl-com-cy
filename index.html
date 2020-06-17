@@ -1,247 +1,786 @@
 ---
-layout: default
+layout:
+title: City Business Center Limassol Offices
+css: 35
 ---
+<!DOCTYPE html>
+<html class="html" lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+    <title>
+        {{ page.title }}
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='dns-prefetch' href='//maps.googleapis.com'/>
+    <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+    <link rel='dns-prefetch' href='//s.w.org'/>
+
+    <link rel='stylesheet' id='icomoon-css'
+          href='/assets/pt-elementor-addons-lite/css/icomoon.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='font-css'
+          href='/assets/pt-elementor-addons-lite/css/frontend.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='timeline.min-css'
+          href='/assets/pt-elementor-addons-lite/css/timeline.min.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='timeline-horizontal-css'
+          href='/assets/pt-elementor-addons-lite/css/timeline-horizontal.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='timeline-reset-css'
+          href='/assets/pt-elementor-addons-lite/css/timeline-reset.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='wpforms-full-css'
+          href='/assets/wpforms-lite/assets/css/wpforms-full.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='eael-front-end-css'
+          href='/assets/essential-addons-elementor/eael-post-35.min.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='font-awesome-css'
+          href='/assets/oceanwp/css/third/font-awesome.min.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='simple-line-icons-css'
+          href='/assets/oceanwp/css/third/simple-line-icons.min.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='magnific-popup-css'
+          href='/assets/oceanwp/css/third/magnific-popup.min.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='slick-css'
+          href='/assets/oceanwp/css/third/slick.min.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='oceanwp-style-css'
+          href='/assets/oceanwp/css/style.min.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='oceanwp-google-font-montserrat-css'
+          href='//fonts.googleapis.com/css?family=Montserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=latin&#038;ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='elementor-icons-css'
+          href='/assets/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='elementor-animations-css'
+          href='/assets/elementor/assets/lib/animations/animations.min.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='elementor-frontend-css'
+          href='/assets/elementor/assets/css/frontend.min.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='elementor-global-css'
+          href='/assets/elementor/css/global.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='elementor-post-{{ page.css }}-css'
+          href='/assets/elementor/css/post-{{ page.css }}.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='popup-maker-site-css'
+          href='/assets/pum/pum-site-styles.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='oe-widgets-style-css'
+          href='/assets/ocean-extra/css/widgets.css?ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='google-fonts-1-css'
+          href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver={{ site.data.settings.asset_tag }}'
+          type='text/css' media='all'/>
+    <script type='text/javascript'
+            src='/assets/js/jquery/jquery.js?ver={{ site.data.settings.asset_tag }}'></script>
+    <script type='text/javascript'
+            src='/assets/js/jquery/jquery-migrate.min.js?ver={{ site.data.settings.asset_tag }}'></script>
+    <script type='text/javascript'
+            src='https://maps.googleapis.com/maps/api/js?key&#038;ver={{ site.data.settings.asset_tag }}'></script>
+    <link rel="canonical" href="https://cbcl.com.cy{{ page.url }}"/>
+    <link rel='shortlink' href='https://cbcl.com.cy{{ page.url }}'/>
+    <link rel="icon"
+          href="/assets/img/cropped-Site-logo-32x32.png"
+          sizes="32x32"/>
+    <link rel="icon"
+          href="/assets/img/cropped-Site-logo-192x192.png"
+          sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed"
+          href="/assets/img/cropped-Site-logo-180x180.png"/>
+    <meta name="msapplication-TileImage"
+          content="/assets/img/cropped-Site-logo-270x270.png"/>
+    <link rel='stylesheet' href='/assets/css/app.css' type='text/css'
+          media='all'/>
+</head>
+
+<body class="home page-template-default page page-id-{{ page.css }} wp-custom-logo oceanwp-theme sidebar-mobile has-transparent-header no-header-border default-breakpoint content-full-screen page-header-disabled has-breadcrumbs no-margins elementor-default elementor-page elementor-page-{{ page.css }}">
+
+<div id="outer-wrap" class="site clr">
+    <div id="wrap" class="clr">
+        <div id="transparent-header-wrap" class="clr">
+            <header id="site-header" class="transparent-header clr" data-height="140" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+                <div id="site-header-inner" class="clr container">
+                    <div id="site-logo"
+                         class="clr"
+                         itemscope
+                         itemtype="http://schema.org/Brand">
+                        <div id="site-logo-inner" class="clr">
+                            <a href="/"
+                               class="custom-logo-link"
+                               rel="home"
+                               itemprop="url">
+                                <img width="800"
+                                     height="418"
+                                     src="/assets/img/cropped-C.B.C.L.-Logo-1.png"
+                                     class="custom-logo"
+                                     alt=""
+                                     itemprop="logo"
+                                     srcset="/assets/img/cropped-C.B.C.L.-Logo-1.png 800w, /assets/img/cropped-C.B.C.L.-Logo-1-300x157.png 300w, /assets/img/cropped-C.B.C.L.-Logo-1-768x401.png 768w"
+                                     sizes="(max-width: 800px) 100vw, 800px" />
+                            </a>
+                        </div><!-- #site-logo-inner -->
+                    </div><!-- #site-logo -->
+
+                    <div id="site-navigation-wrap" class="clr">
+                        <nav id="site-navigation"
+                             class="navigation main-navigation clr"
+                             itemscope="itemscope"
+                             itemtype="http://schema.org/SiteNavigationElement">
+                            <ul id="menu-menu1" class="main-menu dropdown-menu sf-menu">
+                                <li id="menu-item-41"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-41">
+                                    <a href="https://cbcl.com.cy/#home" class="menu-link">
+                                        <span class="text-wrap">HOME</span>
+                                    </a>
+                                </li>
+                                <li id="menu-item-43"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-43">
+                                    <a href="https://cbcl.com.cy/#about" class="menu-link">
+                                        <span class="text-wrap">ABOUT US</span>
+                                    </a>
+                                </li>
+                                <li id="menu-item-45"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children dropdown menu-item-45">
+                                    <a href="https://cbcl.com.cy/#services" class="menu-link">
+                                        <span class="text-wrap">SERVICES <span class="nav-arrow fa fa-angle-down"></span></span>
+                                    </a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-627"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-627">
+                                        <a href="https://cbcl.com.cy/serviced-offices/" class="menu-link">
+                                            <span class="text-wrap">Serviced Offices</span>
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-623"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-623">
+                                        <a href="https://cbcl.com.cy/marketing-communication/" class="menu-link">
+                                            <span class="text-wrap">Marketing Communication</span>
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-625"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-625">
+                                        <a href="https://cbcl.com.cy/support-facilities/" class="menu-link">
+                                            <span class="text-wrap">Support &#038; Facilities</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-171"
+                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children dropdown menu-item-171">
+                                <a href="https://cbcl.com.cy/#gallery" class="menu-link">
+                                    <span class="text-wrap">GALLERY <span class="nav-arrow fa fa-angle-down"></span></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-681"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-681">
+                                        <a href="https://cbcl.com.cy/#floors" class="menu-link">
+                                            <span class="text-wrap">FLOOR PLAN</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-47" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-47">
+                                <a href="https://cbcl.com.cy/#contact" class="menu-link">
+                                    <span class="text-wrap">CONTACT</span>
+                                </a>
+                            </li>
+                            </ul>
+                        </nav><!-- #site-navigation -->
+                    </div><!-- #site-navigation-wrap -->
+
+                    <div class="oceanwp-mobile-menu-icon clr mobile-right">
+                        <a href="#" class="mobile-menu">
+                            <i class="fa fa-bars"></i>
+                            <span class="oceanwp-text">Menu</span>
+                        </a>
+                    </div><!-- #oceanwp-mobile-menu-navbar -->
+                </div><!-- #site-header-inner -->
+            </header><!-- #site-header -->
+        </div>
+
+        <main id="main" class="site-main clr" >
+            <div id="content-wrap" class="container clr">
+                <div id="primary" class="content-area clr">
+                    <div id="content" class="site-content clr">
                         <article class="single-page-article clr">
-    <div class="entry clr" itemprop="text">
-        <div data-elementor-type="post" data-elementor-id="35" class="elementor elementor-35" data-elementor-settings="[]">
-            <div class="elementor-inner">
-                <div class="elementor-section-wrap">
-                    <section class="elementor-element elementor-element-5bf8ec1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5bf8ec1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-d28d30f elementor-column elementor-col-100 elementor-top-column" data-id="d28d30f" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-ab4bf7c elementor-widget elementor-widget-menu-anchor" data-id="ab4bf7c" data-element_type="widget" data-widget_type="menu-anchor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div id="home" class="elementor-menu-anchor"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-df0c34b elementor-section-full_width elementor-section-height-min-height elementor-section-content-middle elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="df0c34b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-adb674c elementor-column elementor-col-100 elementor-top-column" data-id="adb674c" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-3aba015 elementor-widget elementor-widget-heading" data-id="3aba015" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">City Business Center Limassol (CBCL)</h2>		</div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-bdda162 elementor-widget elementor-widget-text-editor" data-id="bdda162" data-element_type="widget" data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix"><p>A contemporary and professional working environment, offering a fast and flexible solution for your business.</p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-12904b9 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="12904b9" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-ade8970 elementor-column elementor-col-100 elementor-top-column" data-id="ade8970" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-7efe33c elementor-widget elementor-widget-heading" data-id="7efe33c" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-xl">WELCOME</h2>		</div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-1a4ff1b elementor-widget elementor-widget-divider" data-id="1a4ff1b" data-element_type="widget" data-widget_type="divider.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-divider">
-                                                        <span class="elementor-divider-separator"></span>
+                            <div class="entry clr" itemprop="text">
+                                <div data-elementor-type="post" data-elementor-id="35" class="elementor elementor-35" data-elementor-settings="[]">
+                                    <div class="elementor-inner">
+                                        <div class="elementor-section-wrap">
+                                            <section class="elementor-element elementor-element-5bf8ec1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5bf8ec1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-d28d30f elementor-column elementor-col-100 elementor-top-column" data-id="d28d30f" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-ab4bf7c elementor-widget elementor-widget-menu-anchor" data-id="ab4bf7c" data-element_type="widget" data-widget_type="menu-anchor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div id="home" class="elementor-menu-anchor"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-9b30a4a elementor-widget elementor-widget-text-editor" data-id="9b30a4a" data-element_type="widget" data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix"><p>Located across from the Limassol District Court House, offering spectacular 5<sup>th</sup> floor views of the sea and city, City Business Center Limassol (CBCL) sits prominently in the heart of Limassol’s business district. It offers fully serviced offices complemented by a full range of industry-leading support services and facilities and a professional office support team.</p><p>The centre boasts eight luxury, purpose-built offices with a central reception area, a kitchen, on-site parking and a host of other facilities and support services.</p><p>The offices feature a modern design, a resourceful layout, a professional operational approach and a peace-of-mind mentality.</p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-ce450e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ce450e5" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-8022ded elementor-column elementor-col-100 elementor-top-column" data-id="8022ded" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-a433441 elementor-widget elementor-widget-menu-anchor" data-id="a433441" data-element_type="widget" data-widget_type="menu-anchor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div id="about" class="elementor-menu-anchor"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-efac5d8 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="efac5d8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-4511cf9 elementor-column elementor-col-100 elementor-top-column" data-id="4511cf9" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-f6f57cf elementor-widget elementor-widget-heading" data-id="f6f57cf" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-xl">ABOUT US</h2>		</div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-29d9206 elementor-widget elementor-widget-divider" data-id="29d9206" data-element_type="widget" data-widget_type="divider.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-divider">
-                                                        <span class="elementor-divider-separator"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-2c36d6b elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="2c36d6b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-a0b5eec elementor-column elementor-col-100 elementor-top-column" data-id="a0b5eec" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-75fd863 elementor-widget elementor-widget-heading" data-id="75fd863" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-large">Management Team</h2>		</div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-9a746a8 elementor-widget elementor-widget-text-editor" data-id="9a746a8" data-element_type="widget" data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix">CBCL is owned and managed by CGT (Estates &amp; Investment) Ltd, a company of local professionals with over 30 years of experience in corporate, fiduciary, international banking and management &amp; administration services in Cyprus and abroad.
-
-                                                        The centre works closely with an alliance of local and international highly specialised firms, which allow it to offer a wide range of tax, business and corporate services to its diverse clientele. Moreover, the centre’s Russian and CIS clients are handled by an in-house, fully fledged Russian desk staffed by experienced native Russian speakers.
-
-                                                        CBCL clients can take advantage of Cyprus’ highly attractive tax and corporate offerings, while at the same time, maintain their offices at the stepping stone to Europe, the Middle East, Asia and Africa.
-
-                                                        For more information on the various corporate, fiduciary and administration services that may also be provided, please visit <a href="https://www.chelcomanagement.com/">www.chelcomanagement.com</a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-4556907 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="4556907" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-e10352f elementor-column elementor-col-100 elementor-top-column" data-id="e10352f" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-7a849d6 elementor-widget elementor-widget-menu-anchor" data-id="7a849d6" data-element_type="widget" data-widget_type="menu-anchor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div id="services" class="elementor-menu-anchor"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-72ecee1 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="72ecee1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-38b11ac elementor-column elementor-col-100 elementor-top-column" data-id="38b11ac" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-9a8e7ca elementor-widget elementor-widget-heading" data-id="9a8e7ca" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-xl">SERVICES</h2>		</div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-e702d30 elementor-widget elementor-widget-divider" data-id="e702d30" data-element_type="widget" data-widget_type="divider.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-divider">
-                                                        <span class="elementor-divider-separator"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <section class="elementor-element elementor-element-a5ea978 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="a5ea978" data-element_type="section">
+                                            </section>
+                                            <section class="elementor-element elementor-element-df0c34b elementor-section-full_width elementor-section-height-min-height elementor-section-content-middle elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="df0c34b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-background-overlay"></div>
                                                 <div class="elementor-container elementor-column-gap-default">
                                                     <div class="elementor-row">
-                                                        <div class="elementor-element elementor-element-7205d1f elementor-column elementor-col-33 elementor-inner-column" data-id="7205d1f" data-element_type="column">
+                                                        <div class="elementor-element elementor-element-adb674c elementor-column elementor-col-100 elementor-top-column" data-id="adb674c" data-element_type="column">
                                                             <div class="elementor-column-wrap  elementor-element-populated">
                                                                 <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-6ab431c elementor-view-framed elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="6ab431c" data-element_type="widget" data-widget_type="icon-box.default">
+                                                                    <div class="elementor-element elementor-element-3aba015 elementor-widget elementor-widget-heading" data-id="3aba015" data-element_type="widget" data-widget_type="heading.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="elementor-icon-box-wrapper">
-                                                                                <div class="elementor-icon-box-icon">
-                                                                                    <a class="elementor-icon elementor-animation-" href="https://cbcl.com.cy/serviced-offices/">
-                                                                                        <i class="fa fa-building" aria-hidden="true"></i>
-                                                                                    </a>
-                                                                                </div>
-                                                                                <div class="elementor-icon-box-content">
-                                                                                    <h4 class="elementor-icon-box-title">
-                                                                                        <a href="https://cbcl.com.cy/serviced-offices/">Serviced Offices</a>
-                                                                                    </h4>
-                                                                                    <p class="elementor-icon-box-description">READ MORE</p>
-                                                                                </div>
+                                                                            <h2 class="elementor-heading-title elementor-size-default">City Business Center Limassol (CBCL)</h2>		</div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-bdda162 elementor-widget elementor-widget-text-editor" data-id="bdda162" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-text-editor elementor-clearfix"><p>A contemporary and professional working environment, offering a fast and flexible solution for your business.</p></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-12904b9 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="12904b9" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-ade8970 elementor-column elementor-col-100 elementor-top-column" data-id="ade8970" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-7efe33c elementor-widget elementor-widget-heading" data-id="7efe33c" data-element_type="widget" data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2 class="elementor-heading-title elementor-size-xl">WELCOME</h2>		</div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-1a4ff1b elementor-widget elementor-widget-divider" data-id="1a4ff1b" data-element_type="widget" data-widget_type="divider.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-divider">
+                                                                                <span class="elementor-divider-separator"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-9b30a4a elementor-widget elementor-widget-text-editor" data-id="9b30a4a" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-text-editor elementor-clearfix"><p>Located across from the Limassol District Court House, offering spectacular 5<sup>th</sup> floor views of the sea and city, City Business Center Limassol (CBCL) sits prominently in the heart of Limassol's business district. It offers fully serviced offices complemented by a full range of industry-leading support services and facilities and a professional office support team.</p><p>The centre boasts eight luxury, purpose-built offices with a central reception area, a kitchen, on-site parking and a host of other facilities and support services.</p><p>The offices feature a modern design, a resourceful layout, a professional operational approach and a peace-of-mind mentality.</p></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-ce450e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ce450e5" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-8022ded elementor-column elementor-col-100 elementor-top-column" data-id="8022ded" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-a433441 elementor-widget elementor-widget-menu-anchor" data-id="a433441" data-element_type="widget" data-widget_type="menu-anchor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div id="about" class="elementor-menu-anchor"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-efac5d8 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="efac5d8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-background-overlay"></div>
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-4511cf9 elementor-column elementor-col-100 elementor-top-column" data-id="4511cf9" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-f6f57cf elementor-widget elementor-widget-heading" data-id="f6f57cf" data-element_type="widget" data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2 class="elementor-heading-title elementor-size-xl">ABOUT US</h2>		</div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-29d9206 elementor-widget elementor-widget-divider" data-id="29d9206" data-element_type="widget" data-widget_type="divider.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-divider">
+                                                                                <span class="elementor-divider-separator"></span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="elementor-element elementor-element-b9b1977 elementor-column elementor-col-33 elementor-inner-column" data-id="b9b1977" data-element_type="column">
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-2c36d6b elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="2c36d6b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-a0b5eec elementor-column elementor-col-100 elementor-top-column" data-id="a0b5eec" data-element_type="column">
                                                             <div class="elementor-column-wrap  elementor-element-populated">
                                                                 <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-d7fbaee elementor-view-framed elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="d7fbaee" data-element_type="widget" data-widget_type="icon-box.default">
+                                                                    <div class="elementor-element elementor-element-75fd863 elementor-widget elementor-widget-heading" data-id="75fd863" data-element_type="widget" data-widget_type="heading.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="elementor-icon-box-wrapper">
-                                                                                <div class="elementor-icon-box-icon">
-                                                                                    <a class="elementor-icon elementor-animation-" href="https://cbcl.com.cy/marketing-communication/">
-                                                                                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                                                                    </a>
+                                                                            <h2 class="elementor-heading-title elementor-size-large">Management Team</h2>		</div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-9a746a8 elementor-widget elementor-widget-text-editor" data-id="9a746a8" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-text-editor elementor-clearfix">CBCL is owned and managed by CGT (Estates &amp; Investment) Ltd, a company of local professionals with over 30 years of experience in corporate, fiduciary, international banking and management &amp; administration services in Cyprus and abroad.
+
+                                                                                The centre works closely with an alliance of local and international highly specialised firms, which allow it to offer a wide range of tax, business and corporate services to its diverse clientele. Moreover, the centre's Russian and CIS clients are handled by an in-house, fully fledged Russian desk staffed by experienced native Russian speakers.
+
+                                                                                CBCL clients can take advantage of Cyprus' highly attractive tax and corporate offerings, while at the same time, maintain their offices at the stepping stone to Europe, the Middle East, Asia and Africa.
+
+                                                                                For more information on the various corporate, fiduciary and administration services that may also be provided, please visit <a href="https://www.chelcomanagement.com/">www.chelcomanagement.com</a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-4556907 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="4556907" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-e10352f elementor-column elementor-col-100 elementor-top-column" data-id="e10352f" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-7a849d6 elementor-widget elementor-widget-menu-anchor" data-id="7a849d6" data-element_type="widget" data-widget_type="menu-anchor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div id="services" class="elementor-menu-anchor"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-72ecee1 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="72ecee1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-38b11ac elementor-column elementor-col-100 elementor-top-column" data-id="38b11ac" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-9a8e7ca elementor-widget elementor-widget-heading" data-id="9a8e7ca" data-element_type="widget" data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2 class="elementor-heading-title elementor-size-xl">SERVICES</h2>		</div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-e702d30 elementor-widget elementor-widget-divider" data-id="e702d30" data-element_type="widget" data-widget_type="divider.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-divider">
+                                                                                <span class="elementor-divider-separator"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <section class="elementor-element elementor-element-a5ea978 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="a5ea978" data-element_type="section">
+                                                                        <div class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-row">
+                                                                                <div class="elementor-element elementor-element-7205d1f elementor-column elementor-col-33 elementor-inner-column" data-id="7205d1f" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-6ab431c elementor-view-framed elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="6ab431c" data-element_type="widget" data-widget_type="icon-box.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-icon-box-wrapper">
+                                                                                                        <div class="elementor-icon-box-icon">
+                                                                                                            <a class="elementor-icon elementor-animation-" href="https://cbcl.com.cy/serviced-offices/">
+                                                                                                                <i class="fa fa-building" aria-hidden="true"></i>
+                                                                                                            </a>
+                                                                                                        </div>
+                                                                                                        <div class="elementor-icon-box-content">
+                                                                                                            <h4 class="elementor-icon-box-title">
+                                                                                                                <a href="https://cbcl.com.cy/serviced-offices/">Serviced Offices</a>
+                                                                                                            </h4>
+                                                                                                            <p class="elementor-icon-box-description">READ MORE</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
                                                                                 </div>
-                                                                                <div class="elementor-icon-box-content">
-                                                                                    <h4 class="elementor-icon-box-title">
-                                                                                        <a href="https://cbcl.com.cy/marketing-communication/">Marketing Communication</a>
-                                                                                    </h4>
-                                                                                    <p class="elementor-icon-box-description">READ MORE</p>
+                                                                                <div class="elementor-element elementor-element-b9b1977 elementor-column elementor-col-33 elementor-inner-column" data-id="b9b1977" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-d7fbaee elementor-view-framed elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="d7fbaee" data-element_type="widget" data-widget_type="icon-box.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-icon-box-wrapper">
+                                                                                                        <div class="elementor-icon-box-icon">
+                                                                                                            <a class="elementor-icon elementor-animation-" href="https://cbcl.com.cy/marketing-communication/">
+                                                                                                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                                                                                            </a>
+                                                                                                        </div>
+                                                                                                        <div class="elementor-icon-box-content">
+                                                                                                            <h4 class="elementor-icon-box-title">
+                                                                                                                <a href="https://cbcl.com.cy/marketing-communication/">Marketing Communication</a>
+                                                                                                            </h4>
+                                                                                                            <p class="elementor-icon-box-description">READ MORE</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
                                                                                 </div>
+                                                                                <div class="elementor-element elementor-element-e2f7be6 elementor-column elementor-col-33 elementor-inner-column" data-id="e2f7be6" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-5526355 elementor-view-framed elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="5526355" data-element_type="widget" data-widget_type="icon-box.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-icon-box-wrapper">
+                                                                                                        <div class="elementor-icon-box-icon">
+                                                                                                            <a class="elementor-icon elementor-animation-" href="https://cbcl.com.cy/support-facilities/">
+                                                                                                                <i class="fa fa-support" aria-hidden="true"></i>
+                                                                                                            </a>
+                                                                                                        </div>
+                                                                                                        <div class="elementor-icon-box-content">
+                                                                                                            <h4 class="elementor-icon-box-title">
+                                                                                                                <a href="https://cbcl.com.cy/support-facilities/">Support & Facilities </a>
+                                                                                                            </h4>
+                                                                                                            <p class="elementor-icon-box-description">READ MORE</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-b85fb1a elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b85fb1a" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-4d1ec98 elementor-column elementor-col-100 elementor-top-column" data-id="4d1ec98" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-96677b0 elementor-widget elementor-widget-menu-anchor" data-id="96677b0" data-element_type="widget" data-widget_type="menu-anchor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div id="gallery" class="elementor-menu-anchor"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-93d3716 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="93d3716" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-background-overlay"></div>
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-f443e81 elementor-column elementor-col-100 elementor-top-column" data-id="f443e81" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-c8a4595 elementor-widget elementor-widget-heading" data-id="c8a4595" data-element_type="widget" data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2 class="elementor-heading-title elementor-size-xl">gallery</h2>		</div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-ba03890 elementor-widget elementor-widget-divider" data-id="ba03890" data-element_type="widget" data-widget_type="divider.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-divider">
+                                                                                <span class="elementor-divider-separator"></span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="elementor-element elementor-element-e2f7be6 elementor-column elementor-col-33 elementor-inner-column" data-id="e2f7be6" data-element_type="column">
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-edf07f3 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="edf07f3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-1075f2a elementor-column elementor-col-100 elementor-top-column" data-id="1075f2a" data-element_type="column">
                                                             <div class="elementor-column-wrap  elementor-element-populated">
                                                                 <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-5526355 elementor-view-framed elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="5526355" data-element_type="widget" data-widget_type="icon-box.default">
+                                                                    <div class="elementor-element elementor-element-945b57c elementor-widget elementor-widget-image-gallery" data-id="945b57c" data-element_type="widget" data-widget_type="image-gallery.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="elementor-icon-box-wrapper">
-                                                                                <div class="elementor-icon-box-icon">
-                                                                                    <a class="elementor-icon elementor-animation-" href="https://cbcl.com.cy/support-facilities/">
-                                                                                        <i class="fa fa-support" aria-hidden="true"></i>
-                                                                                    </a>
-                                                                                </div>
-                                                                                <div class="elementor-icon-box-content">
-                                                                                    <h4 class="elementor-icon-box-title">
-                                                                                        <a href="https://cbcl.com.cy/support-facilities/">Support & Facilities </a>
-                                                                                    </h4>
-                                                                                    <p class="elementor-icon-box-description">READ MORE</p>
+                                                                            <div class="elementor-image-gallery">
+                                                                                <div id='gallery-1' class='gallery galleryid-35 gallery-columns-4 gallery-size-full'><figure class='gallery-item'>
+                                                                                    <div class='gallery-icon landscape'>
+                                                                                        <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_5779-1.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_5779-1.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_5779-1.jpg 2000w, /assets/img/gallery/aMG_5779-1-300x200.jpg 300w, /assets/img/gallery/aMG_5779-1-768x512.jpg 768w, /assets/img/gallery/aMG_5779-1-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
+                                                                                    </div></figure><figure class='gallery-item'>
+                                                                                    <div class='gallery-icon landscape'>
+                                                                                        <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_6754-1.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_6754-1.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_6754-1.jpg 2000w, /assets/img/gallery/aMG_6754-1-300x200.jpg 300w, /assets/img/gallery/aMG_6754-1-768x512.jpg 768w, /assets/img/gallery/aMG_6754-1-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
+                                                                                    </div></figure><figure class='gallery-item'>
+                                                                                    <div class='gallery-icon landscape'>
+                                                                                        <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_5788_2.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_5788_2.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_5788_2.jpg 2000w, /assets/img/gallery/aMG_5788_2-300x200.jpg 300w, /assets/img/gallery/aMG_5788_2-768x512.jpg 768w, /assets/img/gallery/aMG_5788_2-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
+                                                                                    </div></figure><figure class='gallery-item'>
+                                                                                    <div class='gallery-icon landscape'>
+                                                                                        <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_6721.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_6721.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_6721.jpg 2000w, /assets/img/gallery/aMG_6721-300x200.jpg 300w, /assets/img/gallery/aMG_6721-768x512.jpg 768w, /assets/img/gallery/aMG_6721-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
+                                                                                    </div></figure><figure class='gallery-item'>
+                                                                                    <div class='gallery-icon landscape'>
+                                                                                        <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_6735.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_6735.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_6735.jpg 2000w, /assets/img/gallery/aMG_6735-300x200.jpg 300w, /assets/img/gallery/aMG_6735-768x512.jpg 768w, /assets/img/gallery/aMG_6735-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
+                                                                                    </div></figure><figure class='gallery-item'>
+                                                                                    <div class='gallery-icon landscape'>
+                                                                                        <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_6750-1.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_6750-1.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_6750-1.jpg 2000w, /assets/img/gallery/aMG_6750-1-300x200.jpg 300w, /assets/img/gallery/aMG_6750-1-768x512.jpg 768w, /assets/img/gallery/aMG_6750-1-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
+                                                                                    </div></figure><figure class='gallery-item'>
+                                                                                    <div class='gallery-icon landscape'>
+                                                                                        <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_6759-1.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_6759-1.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_6759-1.jpg 2000w, /assets/img/gallery/aMG_6759-1-300x200.jpg 300w, /assets/img/gallery/aMG_6759-1-768x512.jpg 768w, /assets/img/gallery/aMG_6759-1-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
+                                                                                    </div></figure><figure class='gallery-item'>
+                                                                                    <div class='gallery-icon landscape'>
+                                                                                        <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/Floors.jpg'><img width="2000" height="1333" src="/assets/img/gallery/Floors.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/Floors.jpg 2000w, /assets/img/gallery/Floors-300x200.jpg 300w, /assets/img/gallery/Floors-768x512.jpg 768w, /assets/img/gallery/Floors-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
+                                                                                    </div></figure>
                                                                                 </div>
                                                                             </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-76f7d62 elementor-widget elementor-widget-menu-anchor" data-id="76f7d62" data-element_type="widget" data-widget_type="menu-anchor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div id="floors" class="elementor-menu-anchor"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-15fe020 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="15fe020" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-035fd72 elementor-column elementor-col-100 elementor-top-column" data-id="035fd72" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-104b05b elementor-widget elementor-widget-heading" data-id="104b05b" data-element_type="widget" data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2 class="elementor-heading-title elementor-size-large">Floor Plan</h2>		</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-50c71a1 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="50c71a1" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-156dcf3 elementor-column elementor-col-50 elementor-top-column" data-id="156dcf3" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-6d04704 elementor-column elementor-col-50 elementor-top-column" data-id="6d04704" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-3d36b41 elementor-widget elementor-widget-text-editor" data-id="3d36b41" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-text-editor elementor-clearfix"><h1 style="color: white; margin-bottom: 5px;">CBCL FLOOR LAYOUT</h1>
+                                                                                <p style="margin-bottom: 2px;">All offices are contemporary in style and are fully furnished, wired and equipped.</p>
+                                                                                <p>Handicapped access available.</p>
+                                                                                <table style="height: 397px;" width="162">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td width="120">Suite Number</td>
+                                                                                        <td width="116">Floor</td>
+                                                                                        <td width="123">Area</td>
+                                                                                        <td width="121">Orientation</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="120">1</td>
+                                                                                        <td width="116">5<sup>th</sup></td>
+                                                                                        <td width="123">18 sq.m.</td>
+                                                                                        <td width="121">City View</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="120">2</td>
+                                                                                        <td width="116">5<sup>th</sup></td>
+                                                                                        <td width="123">17.8 sq.m.</td>
+                                                                                        <td width="121">City View</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="120">3</td>
+                                                                                        <td width="116">5<sup>th</sup></td>
+                                                                                        <td width="123">17.8 sq.m.</td>
+                                                                                        <td width="121">City View</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="120">4</td>
+                                                                                        <td width="116">5<sup>th</sup></td>
+                                                                                        <td width="123">18 sq.m.</td>
+                                                                                        <td width="121">City View</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="120">5</td>
+                                                                                        <td width="116">5<sup>th</sup></td>
+                                                                                        <td width="123">21 sq.m.</td>
+                                                                                        <td width="121">Sea View</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="120">6</td>
+                                                                                        <td width="116">5<sup>th</sup></td>
+                                                                                        <td width="123">17.8 sq.m.</td>
+                                                                                        <td width="121">Sea View</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="120">7</td>
+                                                                                        <td width="116">5<sup>th</sup></td>
+                                                                                        <td width="123">18.3 sq.m.</td>
+                                                                                        <td width="121">Sea View</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="120">8</td>
+                                                                                        <td width="116">5<sup>th</sup></td>
+                                                                                        <td width="123">18.2 sq.m.</td>
+                                                                                        <td width="121">Sea View</td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-8eacb29 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="8eacb29" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-e3eb9eb elementor-column elementor-col-100 elementor-top-column" data-id="e3eb9eb" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-08e29c9 elementor-widget elementor-widget-menu-anchor" data-id="08e29c9" data-element_type="widget" data-widget_type="menu-anchor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div id="contact" class="elementor-menu-anchor"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-256e751 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="256e751" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-background-overlay"></div>
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-3a14fc3 elementor-column elementor-col-100 elementor-top-column" data-id="3a14fc3" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-1d87480 elementor-widget elementor-widget-heading" data-id="1d87480" data-element_type="widget" data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2 class="elementor-heading-title elementor-size-xl">CONTACT</h2>		</div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-2809041 elementor-widget elementor-widget-divider" data-id="2809041" data-element_type="widget" data-widget_type="divider.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-divider">
+                                                                                <span class="elementor-divider-separator"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-188fcc8 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="188fcc8" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-8bd65ee elementor-column elementor-col-50 elementor-top-column" data-id="8bd65ee" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-76310ad elementor-widget elementor-widget-heading" data-id="76310ad" data-element_type="widget" data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2 class="elementor-heading-title elementor-size-default">Location</h2>		</div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-3380bb6 elementor-widget elementor-widget-text-editor" data-id="3380bb6" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-text-editor elementor-clearfix">1, Chrysanthou Mylona Str., Panayides Court
+                                                                                <br>5th Floor, 3030 Limassol, Cyprus
+                                                                                </br></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-7bccba9 elementor-align-right elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="7bccba9" data-element_type="widget" data-widget_type="icon-list.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <ul class="elementor-icon-list-items">
+                                                                                <li class="elementor-icon-list-item" >
+                                                                    <span class="elementor-icon-list-icon">
+                                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                                </span>
+                                                                                    <span class="elementor-icon-list-text">+357 25 874144</span>
+                                                                                </li>
+                                                                                <li class="elementor-icon-list-item" >
+                                                                    <span class="elementor-icon-list-icon">
+                                                    <i class="fa fa-fax" aria-hidden="true"></i>
+                                                </span>
+                                                                                    <span class="elementor-icon-list-text">+357 25 874145</span>
+                                                                                </li>
+                                                                                <li class="elementor-icon-list-item" >
+                                                                    <span class="elementor-icon-list-icon">
+                                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                                </span>
+                                                                                    <span class="elementor-icon-list-text"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bfd0d9d9d6dcdaccffdcdddcd391dcd0d291dcc6">[email&#160;protected]</a></span>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-de6fc42 elementor-column elementor-col-50 elementor-top-column" data-id="de6fc42" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-d229f4f elementor-widget elementor-widget-google_maps" data-id="d229f4f" data-element_type="widget" data-widget_type="google_maps.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-custom-embed"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1%2C%20Chrysanthou%20Mylona%20Street%2C%203030%20Limassol%2C%20Cyprus&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" aria-label="1, Chrysanthou Mylona Street, 3030 Limassol, Cyprus"></iframe></div>		</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-4bed969 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="4bed969" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-background-overlay"></div>
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-af34f09 elementor-column elementor-col-50 elementor-top-column" data-id="af34f09" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-5866c8b elementor-widget elementor-widget-heading" data-id="5866c8b" data-element_type="widget" data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2 class="elementor-heading-title elementor-size-default">Get in Touch</h2>		</div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-5c410ed eael-wpforms-form-button-full-width elementor-widget elementor-widget-eael-wpforms" data-id="5c410ed" data-element_type="widget" data-widget_type="eael-wpforms.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="eael-contact-form eael-wpforms eael-contact-form-align-center">
+                                                                                <div class="wpforms-container wpforms-container-full" id="wpforms-249"><form id="wpforms-form-249" class="wpforms-validate wpforms-form" data-formid="249" method="post" enctype="multipart/form-data" action="/"><div class="wpforms-field-container"><div id="wpforms-249-field_4-container" class="wpforms-field wpforms-field-name" data-field-id="4"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-249-field_4">Name <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-249-field_4" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][4]" placeholder="Name" required></div><div id="wpforms-249-field_3-container" class="wpforms-field wpforms-field-email" data-field-id="3"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-249-field_3">E-mail <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-249-field_3" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][3]" placeholder="E-mail" required></div><div id="wpforms-249-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-249-field_2">Comment or Message <span class="wpforms-required-label">*</span></label><textarea id="wpforms-249-field_2" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][2]" placeholder="Comment or Message" required></textarea></div></div><div class="wpforms-field wpforms-field-hp"><label for="wpforms-249-field-hp" class="wpforms-field-label">Email</label><input type="text" name="wpforms[hp]" id="wpforms-249-field-hp" class="wpforms-field-medium"></div><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="249"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="35"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-249" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Submit">Submit</button></div></form></div>  <!-- .wpforms-container -->                </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-aba798d elementor-column elementor-col-50 elementor-top-column" data-id="aba798d" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-94045db elementor-widget elementor-widget-image" data-id="94045db" data-element_type="widget" data-widget_type="image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image">
+                                                                                <img width="300" height="157" src="/assets/img/C.B.C.L.-Logo-White-300x157.png" class="attachment-medium size-medium" alt="" srcset="/assets/img/C.B.C.L.-Logo-White-300x157.png 300w, /assets/img/C.B.C.L.-Logo-White.png 600w" sizes="(max-width: 300px) 100vw, 300px" />											</div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -254,332 +793,26 @@ layout: default
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-b85fb1a elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b85fb1a" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-4d1ec98 elementor-column elementor-col-100 elementor-top-column" data-id="4d1ec98" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-96677b0 elementor-widget elementor-widget-menu-anchor" data-id="96677b0" data-element_type="widget" data-widget_type="menu-anchor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div id="gallery" class="elementor-menu-anchor"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-93d3716 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="93d3716" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-f443e81 elementor-column elementor-col-100 elementor-top-column" data-id="f443e81" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-c8a4595 elementor-widget elementor-widget-heading" data-id="c8a4595" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-xl">gallery</h2>		</div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-ba03890 elementor-widget elementor-widget-divider" data-id="ba03890" data-element_type="widget" data-widget_type="divider.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-divider">
-                                                        <span class="elementor-divider-separator"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-edf07f3 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="edf07f3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-1075f2a elementor-column elementor-col-100 elementor-top-column" data-id="1075f2a" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-945b57c elementor-widget elementor-widget-image-gallery" data-id="945b57c" data-element_type="widget" data-widget_type="image-gallery.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-image-gallery">
-                                                        <div id='gallery-1' class='gallery galleryid-35 gallery-columns-4 gallery-size-full'><figure class='gallery-item'>
-                                                            <div class='gallery-icon landscape'>
-                                                                <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_5779-1.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_5779-1.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_5779-1.jpg 2000w, /assets/img/gallery/aMG_5779-1-300x200.jpg 300w, /assets/img/gallery/aMG_5779-1-768x512.jpg 768w, /assets/img/gallery/aMG_5779-1-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
-                                                            </div></figure><figure class='gallery-item'>
-                                                            <div class='gallery-icon landscape'>
-                                                                <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_6754-1.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_6754-1.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_6754-1.jpg 2000w, /assets/img/gallery/aMG_6754-1-300x200.jpg 300w, /assets/img/gallery/aMG_6754-1-768x512.jpg 768w, /assets/img/gallery/aMG_6754-1-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
-                                                            </div></figure><figure class='gallery-item'>
-                                                            <div class='gallery-icon landscape'>
-                                                                <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_5788_2.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_5788_2.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_5788_2.jpg 2000w, /assets/img/gallery/aMG_5788_2-300x200.jpg 300w, /assets/img/gallery/aMG_5788_2-768x512.jpg 768w, /assets/img/gallery/aMG_5788_2-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
-                                                            </div></figure><figure class='gallery-item'>
-                                                            <div class='gallery-icon landscape'>
-                                                                <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_6721.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_6721.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_6721.jpg 2000w, /assets/img/gallery/aMG_6721-300x200.jpg 300w, /assets/img/gallery/aMG_6721-768x512.jpg 768w, /assets/img/gallery/aMG_6721-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
-                                                            </div></figure><figure class='gallery-item'>
-                                                            <div class='gallery-icon landscape'>
-                                                                <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_6735.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_6735.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_6735.jpg 2000w, /assets/img/gallery/aMG_6735-300x200.jpg 300w, /assets/img/gallery/aMG_6735-768x512.jpg 768w, /assets/img/gallery/aMG_6735-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
-                                                            </div></figure><figure class='gallery-item'>
-                                                            <div class='gallery-icon landscape'>
-                                                                <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_6750-1.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_6750-1.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_6750-1.jpg 2000w, /assets/img/gallery/aMG_6750-1-300x200.jpg 300w, /assets/img/gallery/aMG_6750-1-768x512.jpg 768w, /assets/img/gallery/aMG_6750-1-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
-                                                            </div></figure><figure class='gallery-item'>
-                                                            <div class='gallery-icon landscape'>
-                                                                <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/aMG_6759-1.jpg'><img width="2000" height="1333" src="/assets/img/gallery/aMG_6759-1.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/aMG_6759-1.jpg 2000w, /assets/img/gallery/aMG_6759-1-300x200.jpg 300w, /assets/img/gallery/aMG_6759-1-768x512.jpg 768w, /assets/img/gallery/aMG_6759-1-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
-                                                            </div></figure><figure class='gallery-item'>
-                                                            <div class='gallery-icon landscape'>
-                                                                <a data-elementor-open-lightbox="no" data-elementor-lightbox-slideshow="945b57c" href='/assets/img/gallery/Floors.jpg'><img width="2000" height="1333" src="/assets/img/gallery/Floors.jpg" class="attachment-full size-full" alt="" srcset="/assets/img/gallery/Floors.jpg 2000w, /assets/img/gallery/Floors-300x200.jpg 300w, /assets/img/gallery/Floors-768x512.jpg 768w, /assets/img/gallery/Floors-1024x682.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>
-                                                            </div></figure>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-76f7d62 elementor-widget elementor-widget-menu-anchor" data-id="76f7d62" data-element_type="widget" data-widget_type="menu-anchor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div id="floors" class="elementor-menu-anchor"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-15fe020 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="15fe020" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-035fd72 elementor-column elementor-col-100 elementor-top-column" data-id="035fd72" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-104b05b elementor-widget elementor-widget-heading" data-id="104b05b" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-large">Floor Plan</h2>		</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-50c71a1 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="50c71a1" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-156dcf3 elementor-column elementor-col-50 elementor-top-column" data-id="156dcf3" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-6d04704 elementor-column elementor-col-50 elementor-top-column" data-id="6d04704" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-3d36b41 elementor-widget elementor-widget-text-editor" data-id="3d36b41" data-element_type="widget" data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix"><h1 style="color: white; margin-bottom: 5px;">CBCL FLOOR LAYOUT</h1>
-                                                        <p style="margin-bottom: 2px;">All offices are contemporary in style and are fully furnished, wired and equipped.</p>
-                                                        <p>Handicapped access available.</p>
-                                                        <table style="height: 397px;" width="162">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td width="120">Suite Number</td>
-                                                                <td width="116">Floor</td>
-                                                                <td width="123">Area</td>
-                                                                <td width="121">Orientation</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="120">1</td>
-                                                                <td width="116">5<sup>th</sup></td>
-                                                                <td width="123">18 sq.m.</td>
-                                                                <td width="121">City View</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="120">2</td>
-                                                                <td width="116">5<sup>th</sup></td>
-                                                                <td width="123">17.8 sq.m.</td>
-                                                                <td width="121">City View</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="120">3</td>
-                                                                <td width="116">5<sup>th</sup></td>
-                                                                <td width="123">17.8 sq.m.</td>
-                                                                <td width="121">City View</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="120">4</td>
-                                                                <td width="116">5<sup>th</sup></td>
-                                                                <td width="123">18 sq.m.</td>
-                                                                <td width="121">City View</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="120">5</td>
-                                                                <td width="116">5<sup>th</sup></td>
-                                                                <td width="123">21 sq.m.</td>
-                                                                <td width="121">Sea View</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="120">6</td>
-                                                                <td width="116">5<sup>th</sup></td>
-                                                                <td width="123">17.8 sq.m.</td>
-                                                                <td width="121">Sea View</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="120">7</td>
-                                                                <td width="116">5<sup>th</sup></td>
-                                                                <td width="123">18.3 sq.m.</td>
-                                                                <td width="121">Sea View</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="120">8</td>
-                                                                <td width="116">5<sup>th</sup></td>
-                                                                <td width="123">18.2 sq.m.</td>
-                                                                <td width="121">Sea View</td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-8eacb29 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="8eacb29" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-e3eb9eb elementor-column elementor-col-100 elementor-top-column" data-id="e3eb9eb" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-08e29c9 elementor-widget elementor-widget-menu-anchor" data-id="08e29c9" data-element_type="widget" data-widget_type="menu-anchor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div id="contact" class="elementor-menu-anchor"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-256e751 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="256e751" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-3a14fc3 elementor-column elementor-col-100 elementor-top-column" data-id="3a14fc3" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-1d87480 elementor-widget elementor-widget-heading" data-id="1d87480" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-xl">CONTACT</h2>		</div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-2809041 elementor-widget elementor-widget-divider" data-id="2809041" data-element_type="widget" data-widget_type="divider.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-divider">
-                                                        <span class="elementor-divider-separator"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-188fcc8 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="188fcc8" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-8bd65ee elementor-column elementor-col-50 elementor-top-column" data-id="8bd65ee" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-76310ad elementor-widget elementor-widget-heading" data-id="76310ad" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Location</h2>		</div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-3380bb6 elementor-widget elementor-widget-text-editor" data-id="3380bb6" data-element_type="widget" data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-text-editor elementor-clearfix">1, Chrysanthou Mylona Str., Panayides Court
-                                                        <br>5th Floor, 3030 Limassol, Cyprus
-                                                        </br></div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-7bccba9 elementor-align-right elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="7bccba9" data-element_type="widget" data-widget_type="icon-list.default">
-                                                <div class="elementor-widget-container">
-                                                    <ul class="elementor-icon-list-items">
-                                                        <li class="elementor-icon-list-item" >
-											<span class="elementor-icon-list-icon">
-							<i class="fa fa-phone" aria-hidden="true"></i>
-						</span>
-                                                            <span class="elementor-icon-list-text">+357 25 874144</span>
-                                                        </li>
-                                                        <li class="elementor-icon-list-item" >
-											<span class="elementor-icon-list-icon">
-							<i class="fa fa-fax" aria-hidden="true"></i>
-						</span>
-                                                            <span class="elementor-icon-list-text">+357 25 874145</span>
-                                                        </li>
-                                                        <li class="elementor-icon-list-item" >
-											<span class="elementor-icon-list-icon">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
-                                                            <span class="elementor-icon-list-text"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bfd0d9d9d6dcdaccffdcdddcd391dcd0d291dcc6">[email&#160;protected]</a></span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-de6fc42 elementor-column elementor-col-50 elementor-top-column" data-id="de6fc42" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-d229f4f elementor-widget elementor-widget-google_maps" data-id="d229f4f" data-element_type="widget" data-widget_type="google_maps.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-custom-embed"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1%2C%20Chrysanthou%20Mylona%20Street%2C%203030%20Limassol%2C%20Cyprus&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" aria-label="1, Chrysanthou Mylona Street, 3030 Limassol, Cyprus"></iframe></div>		</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="elementor-element elementor-element-4bed969 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="4bed969" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div class="elementor-element elementor-element-af34f09 elementor-column elementor-col-50 elementor-top-column" data-id="af34f09" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-5866c8b elementor-widget elementor-widget-heading" data-id="5866c8b" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Get in Touch</h2>		</div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-5c410ed eael-wpforms-form-button-full-width elementor-widget elementor-widget-eael-wpforms" data-id="5c410ed" data-element_type="widget" data-widget_type="eael-wpforms.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="eael-contact-form eael-wpforms eael-contact-form-align-center">
-                                                        <div class="wpforms-container wpforms-container-full" id="wpforms-249"><form id="wpforms-form-249" class="wpforms-validate wpforms-form" data-formid="249" method="post" enctype="multipart/form-data" action="/"><div class="wpforms-field-container"><div id="wpforms-249-field_4-container" class="wpforms-field wpforms-field-name" data-field-id="4"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-249-field_4">Name <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-249-field_4" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][4]" placeholder="Name" required></div><div id="wpforms-249-field_3-container" class="wpforms-field wpforms-field-email" data-field-id="3"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-249-field_3">E-mail <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-249-field_3" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][3]" placeholder="E-mail" required></div><div id="wpforms-249-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-249-field_2">Comment or Message <span class="wpforms-required-label">*</span></label><textarea id="wpforms-249-field_2" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][2]" placeholder="Comment or Message" required></textarea></div></div><div class="wpforms-field wpforms-field-hp"><label for="wpforms-249-field-hp" class="wpforms-field-label">Email</label><input type="text" name="wpforms[hp]" id="wpforms-249-field-hp" class="wpforms-field-medium"></div><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="249"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="35"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-249" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Submit">Submit</button></div></form></div>  <!-- .wpforms-container -->                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-aba798d elementor-column elementor-col-50 elementor-top-column" data-id="aba798d" data-element_type="column">
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-94045db elementor-widget elementor-widget-image" data-id="94045db" data-element_type="widget" data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-image">
-                                                        <img width="300" height="157" src="/assets/img/C.B.C.L.-Logo-White-300x157.png" class="attachment-medium size-medium" alt="" srcset="/assets/img/C.B.C.L.-Logo-White-300x157.png 300w, /assets/img/C.B.C.L.-Logo-White.png 600w" sizes="(max-width: 300px) 100vw, 300px" />											</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </div>
-</article>
+                        </article>
+
+                    </div><!-- #content -->
+                </div><!-- #primary -->
+            </div><!-- #content-wrap -->
+        </main><!-- #main -->
+
+        {% include footer.html %}
+    </div><!-- #wrap -->
+</div><!-- #outer-wrap -->
+
+<a id="scroll-top" class="scroll-top-right" href="#"><span class="fa fa-angle-up"></span></a>
+
+<div id="sidr-close">
+    <a href="#" class="toggle-sidr-close">
+        <i class="icon icon-close"></i><span class="close-text">Close Menu</span>
+    </a>
+</div>
+
+{% include popup.html %}
+{% include footer-js.html %}
+</body>
+</html>

@@ -1,0 +1,45 @@
+.elementor-15 .elementor-element.elementor-element-86ac3da.elementor-position-right .elementor-image-box-img {
+    margin-left: 48px;
+}
+
+.elementor-15 .elementor-element.elementor-element-86ac3da.elementor-position-left .elementor-image-box-img {
+    margin-right: 48px;
+}
+
+.elementor-15 .elementor-element.elementor-element-86ac3da.elementor-position-top .elementor-image-box-img {
+    margin-bottom: 48px;
+}
+
+.elementor-15 .elementor-element.elementor-element-86ac3da .elementor-image-box-wrapper .elementor-image-box-img {
+    width: 36%;
+}
+
+.elementor-15 .elementor-element.elementor-element-86ac3da .elementor-image-box-img img {
+    transition-duration: 0.3s;
+}
+
+.elementor-15 .elementor-element.elementor-element-86ac3da .elementor-image-box-wrapper {
+    text-align: center;
+}
+
+.elementor-15 .elementor-element.elementor-element-86ac3da .elementor-image-box-title {
+    margin-bottom: 3px;
+}
+
+.elementor-15 .elementor-element.elementor-element-86ac3da .elementor-image-box-content .elementor-image-box-title {
+    color: #7a7a7a;
+    font-family: "Arial", Sans-serif;
+    font-style: normal;
+}
+
+.elementor-15 .elementor-element.elementor-element-86ac3da .elementor-image-box-content .elementor-image-box-description {
+    color: #7a7a7a;
+    font-family: "Arial", Sans-serif;
+    font-style: normal;
+}
+
+@media (max-width: 767px) {
+    .elementor-15 .elementor-element.elementor-element-86ac3da .elementor-image-box-img {
+        margin-bottom: 48px;
+    }
+}

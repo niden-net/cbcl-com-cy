@@ -1,0 +1,153 @@
+.elementor-291 .elementor-element.elementor-element-22ba779 > .elementor-container {
+    min-height: 250px;
+}
+
+.elementor-291 .elementor-element.elementor-element-22ba779 > .elementor-container:after {
+    content: "";
+    min-height: inherit;
+}
+
+.elementor-291 .elementor-element.elementor-element-22ba779:not(.elementor-motion-effects-element-type-background), .elementor-291 .elementor-element.elementor-element-22ba779 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("/assets/img/gallery/aMG_6759.jpg");
+    background-position: 0px -600px;
+    background-size: cover;
+}
+
+.elementor-291 .elementor-element.elementor-element-22ba779 > .elementor-background-overlay {
+    background-color: #000000;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-291 .elementor-element.elementor-element-22ba779 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-291 .elementor-element.elementor-element-ddaa268 {
+    text-align: center;
+}
+
+.elementor-291 .elementor-element.elementor-element-ddaa268.elementor-widget-heading .elementor-heading-title {
+    color: #ffffff;
+}
+
+.elementor-291 .elementor-element.elementor-element-ddaa268 .elementor-heading-title {
+    font-family: "Montserrat", Sans-serif;
+    text-transform: uppercase;
+}
+
+.elementor-291 .elementor-element.elementor-element-dbe0fb9 > .elementor-container {
+    min-height: 390px;
+}
+
+.elementor-291 .elementor-element.elementor-element-dbe0fb9 > .elementor-container:after {
+    content: "";
+    min-height: inherit;
+}
+
+.elementor-291 .elementor-element.elementor-element-cb16776 {
+    color: #77787b;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+}
+
+.elementor-291 .elementor-element.elementor-element-cb16776 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-291 .elementor-element.elementor-element-e80ff7b > .elementor-container {
+    min-height: 0px;
+}
+
+.elementor-291 .elementor-element.elementor-element-e80ff7b > .elementor-container:after {
+    content: "";
+    min-height: inherit;
+}
+
+.elementor-291 .elementor-element.elementor-element-e80ff7b:not(.elementor-motion-effects-element-type-background), .elementor-291 .elementor-element.elementor-element-e80ff7b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #54595f;
+}
+
+.elementor-291 .elementor-element.elementor-element-e80ff7b {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-291 .elementor-element.elementor-element-e80ff7b > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-291 .elementor-element.elementor-element-1b45e8d > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    margin-bottom: 0px;
+}
+
+.elementor-291 .elementor-element.elementor-element-1b45e8d > .elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-291 .elementor-element.elementor-element-fc73101 {
+    text-align: center;
+}
+
+.elementor-291 .elementor-element.elementor-element-fc73101 .elementor-image img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.elementor-291 .elementor-element.elementor-element-fc73101 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-291 .elementor-element.elementor-element-132103e > .elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 0px 0px 30px;
+}
+
+.elementor-291 .elementor-element.elementor-element-132103e > .elementor-element-populated > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-291 .elementor-element.elementor-element-a1f1ec9 .elementor-text-editor {
+    text-align: left;
+    column-gap: 0px;
+}
+
+.elementor-291 .elementor-element.elementor-element-a1f1ec9 {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.3em;
+}
+
+.elementor-291 .elementor-element.elementor-element-a1f1ec9 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+@media (max-width: 767px) {
+    .elementor-291 .elementor-element.elementor-element-ddaa268 {
+        text-align: center;
+    }
+
+    .elementor-291 .elementor-element.elementor-element-ddaa268 .elementor-heading-title {
+        font-size: 30px;
+    }
+
+    .elementor-291 .elementor-element.elementor-element-a1f1ec9 .elementor-text-editor {
+        text-align: center;
+    }
+
+    .elementor-291 .elementor-element.elementor-element-a1f1ec9 > .elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 30px 30px 30px 30px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-291 .elementor-element.elementor-element-22ba779:not(.elementor-motion-effects-element-type-background), .elementor-291 .elementor-element.elementor-element-22ba779 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-attachment: scroll;
+    }
+}

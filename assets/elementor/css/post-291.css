@@ -8,7 +8,7 @@
 }
 
 .elementor-291 .elementor-element.elementor-element-22ba779:not(.elementor-motion-effects-element-type-background), .elementor-291 .elementor-element.elementor-element-22ba779 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-image: url("/assets/img/gallery/aMG_6759.jpg");
+    background-image: url("http://127.0.0.1:4000/assets/img/gallery/aMG_6759.jpg");
     background-position: 0px -600px;
     background-size: cover;
 }

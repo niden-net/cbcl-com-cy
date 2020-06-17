@@ -3,93 +3,43 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
     <title>
-        {{ site.data.settings.title }}
+        {{ page.title }}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='dns-prefetch' href='//maps.googleapis.com'/>
-    <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
-    <link rel='dns-prefetch' href='//s.w.org'/>
 
-    <link rel='stylesheet' id='icomoon-css'
-          href='/assets/pt-elementor-addons-lite/css/icomoon.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='font-css'
-          href='/assets/pt-elementor-addons-lite/css/frontend.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='timeline.min-css'
-          href='/assets/pt-elementor-addons-lite/css/timeline.min.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='timeline-horizontal-css'
-          href='/assets/pt-elementor-addons-lite/css/timeline-horizontal.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='timeline-reset-css'
-          href='/assets/pt-elementor-addons-lite/css/timeline-reset.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='wpforms-full-css'
-          href='/assets/wpforms-lite/assets/css/wpforms-full.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='eael-front-end-css'
-          href='/assets/essential-addons-elementor/eael-post-35.min.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='font-awesome-css'
-          href='/assets/oceanwp/css/third/font-awesome.min.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='simple-line-icons-css'
-          href='/assets/oceanwp/css/third/simple-line-icons.min.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='magnific-popup-css'
-          href='/assets/oceanwp/css/third/magnific-popup.min.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='slick-css'
-          href='/assets/oceanwp/css/third/slick.min.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='oceanwp-style-css'
-          href='/assets/oceanwp/css/style.min.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='oceanwp-google-font-montserrat-css'
-          href='//fonts.googleapis.com/css?family=Montserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=latin&#038;ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='elementor-icons-css'
-          href='/assets/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='elementor-animations-css'
-          href='/assets/elementor/assets/lib/animations/animations.min.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='elementor-frontend-css'
-          href='/assets/elementor/assets/css/frontend.min.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='elementor-global-css'
-          href='/assets/elementor/css/global.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='elementor-post-35-css'
-          href='/assets/elementor/css/post-35.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='popup-maker-site-css'
-          href='/assets/pum/pum-site-styles.css?generated=1589276635&#038;ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='oe-widgets-style-css'
-          href='/assets/ocean-extra/css/widgets.css?ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='google-fonts-1-css'
-          href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver={{ site.data.settings.asset_tag }}'
-          type='text/css' media='all'/>
+    <link rel='dns-prefetch' href='//maps.googleapis.com' />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+
+    <link rel='stylesheet'
+          href='/assets/css/{{ page.css }}.css'
+          type='text/css' media='all' />
+    <link rel='stylesheet'
+          id='oceanwp-google-font-montserrat-css'
+          href='//fonts.googleapis.com/css?family=Montserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=latin&#038;ver=4.9.15' type='text/css' media='all' />
+    <link rel='stylesheet'
+          id='google-fonts-1-css'
+          href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=4.9.15' type='text/css' media='all' />
+
     <script type='text/javascript'
             src='/assets/js/jquery/jquery.js?ver={{ site.data.settings.asset_tag }}'></script>
     <script type='text/javascript'
             src='/assets/js/jquery/jquery-migrate.min.js?ver={{ site.data.settings.asset_tag }}'></script>
     <script type='text/javascript'
-            src='https://maps.googleapis.com/maps/api/js?key&#038;ver={{ site.data.settings.asset_tag }}'></script>
-    <link rel="canonical" href="https://cbcl.com.cy/"/>
-    <link rel='shortlink' href='https://cbcl.com.cy/'/>
+            src='https://maps.googleapis.com/maps/api/js?key&#038;ver=4.9.15'></script>
+
+    <link rel="canonical" href="https://cbcl.com.cy/marketing-communication/" />
+    <link rel='shortlink' href="https://cbcl.com.cy/marketing-communication/" />
+
     <link rel="icon"
           href="/assets/img/cropped-Site-logo-32x32.png"
-          sizes="32x32"/>
+          sizes="32x32" />
     <link rel="icon"
           href="/assets/img/cropped-Site-logo-192x192.png"
-          sizes="192x192"/>
+          sizes="192x192" />
     <link rel="apple-touch-icon-precomposed"
-          href="/assets/img/cropped-Site-logo-180x180.png"/>
+          href="/assets/img/cropped-Site-logo-180x180.png" />
     <meta name="msapplication-TileImage"
-          content="/assets/img/cropped-Site-logo-270x270.png"/>
-    <link rel='stylesheet' href='/assets/css/app.css' type='text/css'
-          media='all'/>
+          content="/assets/img/cropped-Site-logo-270x270.png" />
+</head>
+

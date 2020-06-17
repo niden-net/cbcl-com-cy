@@ -1,0 +1,642 @@
+/*! CSS Used from: https://cbcl.com.cy/wp-content/plugins/pt-elementor-addons-lite/assets/css/frontend.css?ver=4.9.15 ; media=all */
+@media all{
+    *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+    .elementor-widget-container{max-width:100%;margin:0 auto;}
+    @media screen and (max-width: 800px){
+        body{font-size:1rem;line-height:1.25;}
+    }
+    button::-moz-focus-inner{padding:0;border:0;}
+    @media screen and (max-width: 800px){
+        body{font-size:1rem;line-height:1.25;}
+    }
+}
+/*! CSS Used from: https://cbcl.com.cy/wp-content/plugins/pt-elementor-addons-lite/assets/css/timeline-horizontal.css?ver=4.9.15 ; media=all */
+@media all{
+    *,*::after,*::before{box-sizing:border-box;}
+    html{font-size:62.5%;}
+    body{font-size:1.6rem;font-family:"Fira Sans", sans-serif;color:#383838;background-color:#f8f8f8;}
+    a{color:#7b9d6f;text-decoration:none;}
+}
+/*! CSS Used from: https://cbcl.com.cy/wp-content/plugins/pt-elementor-addons-lite/assets/css/timeline-reset.css?ver=4.9.15 ; media=all */
+@media all{
+    html,body,div,span,h2,h4,p,a,img,i,ul,li,form,article,footer,header,nav,section{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+    article,footer,header,nav,section,main{display:block;}
+    body{line-height:1;}
+    ul{list-style:none;}
+}
+/*! CSS Used from: https://cbcl.com.cy/wp-content/themes/oceanwp/assets/css/third/font-awesome.min.css?ver=4.7.0 ; media=all */
+@media all{
+    .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+    .fa-star:before{content:"\f005";}
+    .fa-bars:before{content:"\f0c9";}
+    .fa-angle-up:before{content:"\f106";}
+    .fa-angle-down:before{content:"\f107";}
+    .fa-support:before{content:"\f1cd";}
+    .fa-user-circle:before{content:"\f2bd";}
+}
+/*! CSS Used from: https://cbcl.com.cy/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0 ; media=all */
+@media all{
+    .icon-close,.icon-magnifier{font-family:'simple-line-icons';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+    .icon-close:before{content:"\e082";}
+    .icon-magnifier:before{content:"\e090";}
+}
+/*! CSS Used from: https://cbcl.com.cy/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css?ver=1.0.0 ; media=all */
+@media all{
+    button::-moz-focus-inner{padding:0;border:0;}
+}
+/*! CSS Used from: https://cbcl.com.cy/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.5.25 ; media=all */
+@media all{
+    html,body,div,span,h2,h4,p,a,img,i,ul,li,form,article,footer,header,nav,section{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;}
+    article,footer,header,nav,section{display:block;}
+    html{font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+    *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    article,footer,header,main,nav,section{display:block;}
+    a:focus{outline:none;}
+    a:hover,a:active{outline:0;}
+    a img{border:0;}
+    img{max-width:100%;height:auto;}
+    html{-ms-overflow-x:hidden;overflow-x:hidden;}
+    body{font-family:"Open Sans",sans-serif;font-size:14px;line-height:1.8;color:#929292;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-wrap:break-word;word-wrap:break-word;}
+    body{background-color:#fff;}
+    ::selection{color:#fff;background:#333;text-shadow:none;}
+    ::-moz-selection{color:#fff;background:#333;text-shadow:none;}
+    html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+    body{margin:0;}
+    article,footer,header,main,nav,section{display:block;}
+    a{background-color:transparent;}
+    a:active,a:hover{outline:0;}
+    img{border:0;}
+    hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0;}
+    button,input{color:inherit;font:inherit;margin:0;}
+    button{overflow:visible;}
+    button{text-transform:none;}
+    button{-webkit-appearance:button;cursor:pointer;}
+    button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+    input{line-height:normal;}
+    .container{width:1200px;max-width:90%;margin:0 auto;}
+    #wrap{position:relative;}
+    #main{position:relative;}
+    #main #content-wrap{padding-top:50px;padding-bottom:50px;}
+    .no-margins #main #content-wrap{padding-top:0;padding-bottom:0;}
+    .content-area{float:left;position:relative;width:72%;padding-right:30px;border-right-width:1px;border-style:solid;border-color:#f1f1f1;}
+    body.content-full-screen #content-wrap{width:100%!important;max-width:none!important;padding:0!important;border:0!important;}
+    .content-full-screen .content-area{float:none;width:100%!important;max-width:none!important;padding:0!important;margin:0!important;border:0!important;}
+    @media only screen and (max-width: 959px){
+        .container,body.content-full-screen .elementor-section-wrap>.elementor-section.elementor-section-boxed>.elementor-container{max-width:90%;}
+        .content-area{float:none!important;width:100%;margin-bottom:40px;border:0;}
+        body:not(.separate-layout) .content-area{padding:0!important;}
+        .no-margins .content-area{margin-bottom:0;}
+        #main #content-wrap.container{width:auto!important;}
+    }
+    @media only screen and (max-width: 767px){
+        #wrap{width:100%!important;}
+    }
+    img{max-width:100%;height:auto;vertical-align:middle;}
+    .clr:after{content:'';display:block;visibility:hidden;clear:both;zoom:1;height:0;}
+    a{color:#333;}
+    a:hover{color:#13aff0;}
+    a,a:hover,a:focus{text-decoration:none;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease;}
+    h2,h4{font-weight:600;margin:0 0 20px;color:#333;line-height:1.4;}
+    h2{font-size:20px;}
+    h4{font-size:17px;}
+    p{margin:0 0 20px;}
+    ul{margin:15px 0 15px 20px;}
+    li ul{margin:0 0 0 25px;}
+    hr{clear:both;height:1px;min-height:0;margin:20px 0;border-top:1px solid #e9e9e9;border-right:0;border-bottom:0;border-left:0;}
+    @media print{
+        *{color:#000!important;background:transparent!important;-webkit-box-shadow:none!important;-moz-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important;}
+        a,a:visited{text-decoration:underline;}
+        a[href]:after{content:" (" attr(href) ")";}
+        a[href^="#"]:after{content:"";}
+        img{page-break-inside:avoid;}
+        img{max-width:100%!important;}
+        p,h2{orphans:3;widows:3;}
+        h2{page-break-after:avoid;}
+    }
+    form input[type="search"]{display:inline-block;min-height:40px;width:100%;font-size:14px;line-height:1.8;padding:6px 12px;vertical-align:middle;background-color:transparent;color:#333;border:1px solid #ddd;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;border-radius:3px;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease;}
+    input[type="search"]{-webkit-appearance:none;}
+    form input[type="search"]:focus{border-color:#bbb;outline:0;}
+    form input:focus:invalid{color:#b94a48;border-color:#e9322d;}
+    button[type="submit"]{display:inline-block;font-family:inherit;background-color:#13aff0;color:#fff;font-size:12px;font-weight:600;text-transform:uppercase;margin:0;padding:14px 20px;border:0;cursor:pointer;text-align:center;letter-spacing:0.1em;line-height:1;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease;}
+    button[type="submit"]:hover,button[type="submit"]:focus{background-color:#0b7cac;color:#fff;}
+    button[type="submit"]:focus,button:focus{outline:0;}
+    button::-moz-focus-inner{padding:0;border:0;}
+    #site-header{position:relative;width:100%;background-color:#fff;border-bottom:1px solid #f1f1f1;z-index:100;}
+    .no-header-border #site-header{border-bottom:none;}
+    #site-header-inner{position:relative;height:100%;}
+    #site-logo{float:left;height:100%;display:table;}
+    #site-logo #site-logo-inner{display:table-cell;vertical-align:middle;height:74px;}
+    #site-logo #site-logo-inner a{background-color:transparent!important;}
+    #site-logo #site-logo-inner a img{width:auto;vertical-align:middle;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+    #site-logo #site-logo-inner a:hover img{-moz-opacity:.6;-webkit-opacity:.6;opacity:.6;}
+    @media only screen and (max-width: 767px){
+        #site-logo{margin-top:0px!important;margin-bottom:0px!important;}
+    }
+    #site-navigation-wrap{float:right;position:relative;right:-15px;}
+    #site-navigation-wrap .dropdown-menu{list-style:none;margin:0;padding:0;}
+    #site-navigation-wrap .dropdown-menu>li{float:left;position:relative;}
+    #site-navigation-wrap .dropdown-menu>li>a{display:block;font-size:13px;line-height:74px;color:#555;padding:0 15px;letter-spacing:0.6px;}
+    #site-navigation-wrap .dropdown-menu>li>a:hover{color:#13aff0;}
+    #site-navigation-wrap .dropdown-menu>li>a .nav-arrow{padding-left:6px;line-height:1;}
+    .sf-menu,.sf-menu *{margin:0;padding:0;list-style:none;}
+    .sf-menu li.menu-item{position:relative;white-space:nowrap;*white-space:normal;}
+    .sf-menu li:hover{-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none;}
+    .sf-menu ul.sub-menu{position:absolute;display:none;top:100%;left:0;z-index:9999;}
+    .sf-menu>li{float:left;}
+    .sf-menu li:hover>ul{display:block;}
+    .sf-menu a.menu-link{display:block;position:relative;zoom:1;}
+    .dropdown-menu,.dropdown-menu *{margin:0;padding:0;list-style:none;}
+    .dropdown-menu .sub-menu{display:none;position:absolute;top:100%;left:0;background-color:#fff;border-top:3px solid #13aff0;min-width:180px;line-height:1;text-align:left;z-index:999;-webkit-box-shadow:0 2px 6px rgba(0,0,0,0.1);-moz-box-shadow:0 2px 6px rgba(0,0,0,0.1);box-shadow:0 2px 6px rgba(0,0,0,0.1);}
+    .dropdown-menu li .sub-menu li.menu-item{display:block;float:none;}
+    .dropdown-menu ul li.menu-item{display:block;border-bottom:1px solid #f1f1f1;}
+    .dropdown-menu ul li.menu-item:last-child{border-bottom:0;}
+    .dropdown-menu ul li a.menu-link{display:block;position:relative;float:none;font-size:12px;font-weight:400;line-height:1.2em;letter-spacing:0.6px;padding:12px 15px;text-transform:capitalize;}
+    .dropdown-menu ul li a.menu-link:hover{background-color:#f8f8f8;color:#555;}
+    .oceanwp-mobile-menu-icon{display:none;position:relative;}
+    .oceanwp-mobile-menu-icon.mobile-right{float:right;}
+    .oceanwp-mobile-menu-icon a{font-size:13px;line-height:74px;color:#555;padding-left:15px;letter-spacing:0.6px;cursor:pointer;}
+    .oceanwp-mobile-menu-icon a:first-child{padding-left:0;}
+    .oceanwp-mobile-menu-icon a:hover{color:#13aff0;}
+    .oceanwp-mobile-menu-icon a.mobile-menu .oceanwp-text{padding-left:6px;}
+    .site-footer{position:relative;}
+    #footer-bottom{background-color:#1B1B1B;padding:15px 0;font-size:12px;line-height:1;}
+    #footer-bottom #copyright{width:50%;}
+    #footer-bottom.no-footer-nav #copyright{float:none;width:100%;text-align:center;padding-left:0!important;padding-right:0!important;}
+    #footer-bottom #copyright{float:left;text-align:left;padding-right:15px;}
+    @media only screen and (max-width: 959px){
+        #footer-bottom #copyright{float:none;width:100%;padding-right:0;padding-left:0;text-align:center;}
+    }
+    #scroll-top{display:none;position:fixed;right:20px;bottom:20px;width:40px;height:40px;line-height:40px;background-color:rgba(0,0,0,0.4);color:#fff;font-size:18px;cursor:pointer;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;border-radius:2px;text-align:center;z-index:100;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+    #scroll-top>span{line-height:inherit;vertical-align:top;}
+    #scroll-top:hover{background-color:rgba(0,0,0,0.8);}
+    @media only screen and (max-width: 480px){
+        #scroll-top{right:10px;bottom:10px;width:26px;height:26px;line-height:24px;font-size:14px;}
+    }
+    #sidr-close{display:none;}
+    #sidr{display:block;position:fixed;top:0;height:100%;z-index:999999;width:300px;max-width:100%;padding-bottom:30px;overflow-x:hidden;overflow-y:auto;font-size:15px;background-color:#fff;color:#555;-webkit-touch-callout:none;user-select:none;-webkit-overflow-scrolling:touch;}
+    #sidr ul{margin:0;list-style:none;}
+    .sidr.left{left:-300px;right:auto;}
+    .sidr a{color:#555;}
+    .sidr a:hover{color:#13aff0;}
+    a.sidr-class-toggle-sidr-close{display:block;background-color:#f8f8f8;color:#333;font-size:13px;font-weight:600;line-height:1;padding:20px;letter-spacing:0.6px;text-transform:uppercase;}
+    a.sidr-class-toggle-sidr-close i{display:inline-block;padding-right:8px;margin:0;width:auto;height:auto;line-height:1;vertical-align:bottom;}
+    .sidr-class-dropdown-menu ul{display:none;border-top:1px solid rgba(0,0,0,0.035);margin-left:0;background-color:rgba(0,0,0,0.02);}
+    .sidr-class-dropdown-menu li{border-bottom:1px solid rgba(0,0,0,0.035);}
+    .sidr-class-dropdown-menu>li:first-child{border-top:1px solid rgba(0,0,0,0.035);}
+    .sidr-class-dropdown-menu li a{padding:12px 20px;display:block;position:relative;}
+    .sidr-class-dropdown-menu ul li:last-child{border:none;}
+    .sidr-class-menu-item-has-children{position:relative;}
+    .sidr-class-dropdown-menu li.sidr-class-menu-item-has-children>a{padding-right:60px;}
+    .sidr-class-dropdown-menu ul a:before{font-family:'FontAwesome';content:'\f105';display:inline-block;margin:0 10px;}
+    .sidr .sidr-class-nav-arrow{display:none!important;}
+    #mobile-menu-search{display:none;}
+    .sidr-class-mobile-searchform{position:relative;margin:30px 20px 0;}
+    .sidr-class-mobile-searchform input{padding:6px 45px 6px 12px!important;margin-top:0!important;-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit;}
+    .sidr-class-mobile-searchform button{display:block;position:absolute;right:10px;height:30px;line-height:30px;width:30px;padding:0;text-align:center;top:50%;margin-top:-15px;background-color:transparent!important;color:#555;border:0;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+    .sidr-class-mobile-searchform button:hover{color:#222;}
+    @media only screen and (max-width: 959px){
+        body.default-breakpoint #site-navigation-wrap{display:none;}
+        body.default-breakpoint .oceanwp-mobile-menu-icon{display:block;}
+    }
+}
+/*! CSS Used from: https://cbcl.com.cy/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.5.16 ; media=all */
+@media all{
+    .elementor-screen-only{position:absolute;top:-10000em;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0;}
+    .elementor{-webkit-hyphens:manual;-ms-hyphens:manual;hyphens:manual;}
+    .elementor *,.elementor :after,.elementor :before{-webkit-box-sizing:border-box;box-sizing:border-box;}
+    .elementor .elementor-background-overlay{height:100%;width:100%;top:0;left:0;position:absolute;}
+    .elementor-section{position:relative;}
+    .elementor-section .elementor-container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-right:auto;margin-left:auto;position:relative;}
+    .elementor-section.elementor-section-boxed>.elementor-container{max-width:1140px;}
+    .elementor-section.elementor-section-items-middle>.elementor-container{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;}
+    .elementor-section-content-middle>.elementor-container>.elementor-row>.elementor-column>.elementor-column-wrap{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;}
+    .elementor-row{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+    @media (max-width:1024px){
+        .elementor-row{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+    }
+    .elementor-column-wrap{width:100%;position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+    .elementor-widget-wrap{position:relative;width:100%;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start;}
+    .elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+    .elementor-widget-wrap>.elementor-element{width:100%;}
+    .elementor-widget{position:relative;}
+    .elementor-column{position:relative;min-height:1px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+    .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{padding:10px;}
+    @media (min-width:768px){
+        .elementor-column.elementor-col-33{width:33.333%;}
+        .elementor-column.elementor-col-100{width:100%;}
+    }
+    @media (max-width:767px){
+        .elementor-column{width:100%;}
+    }
+    @media (min-width:1025px){
+        #elementor-device-mode:after{content:"desktop";}
+    }
+    @media (min-width:768px) and (max-width:1024px){
+        #elementor-device-mode:after{content:"tablet";}
+    }
+    @media (max-width:767px){
+        #elementor-device-mode:after{content:"mobile";}
+    }
+    .elementor-element .elementor-widget-container{-webkit-transition:background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;transition:background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;-o-transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;}
+    .elementor-widget-heading .elementor-heading-title{padding:0;margin:0;line-height:1;}
+    .elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px;}
+    .elementor-icon{display:inline-block;line-height:1;-webkit-transition:all .5s;-o-transition:all .5s;transition:all .5s;color:#818a91;font-size:50px;text-align:center;}
+    .elementor-icon:hover{color:#818a91;}
+    .elementor-icon i{width:1em;height:1em;position:relative;display:block;}
+    .elementor-icon i:before{position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+    .elementor-view-stacked .elementor-icon{padding:.5em;background-color:#818a91;color:#fff;}
+    .elementor-shape-circle .elementor-icon{-webkit-border-radius:50%;border-radius:50%;}
+    @media (min-width:768px){
+        .elementor-widget-icon-box.elementor-vertical-align-top .elementor-icon-box-wrapper{-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;}
+    }
+    @media (max-width:767px){
+        .elementor-widget-icon-box .elementor-icon-box-icon{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px;}
+    }
+    .elementor-widget-icon-box .elementor-icon-box-wrapper{text-align:center;}
+    .elementor-widget-icon-box .elementor-icon-box-content{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}
+    .elementor-widget-icon-box .elementor-icon-box-description{margin:0;}
+}
+/*! CSS Used from: https://cbcl.com.cy/wp-content/uploads/elementor/css/global.css?ver=1561011595 ; media=all */
+@media all{
+    .elementor-widget-heading.elementor-widget-heading .elementor-heading-title{color:#6ec1e4;}
+    .elementor-widget-heading .elementor-heading-title{font-family:"Roboto", Sans-serif;font-weight:600;}
+    .elementor-widget-icon-box.elementor-view-stacked .elementor-icon{background-color:#6ec1e4;}
+    .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title{color:#6ec1e4;font-family:"Roboto", Sans-serif;font-weight:600;}
+    .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description{color:#7a7a7a;font-family:"Roboto", Sans-serif;font-weight:400;}
+}
+/*! CSS Used from: https://cbcl.com.cy/wp-content/uploads/elementor/css/post-311.css?ver=1566298486 ; media=all */
+@media all{
+    .elementor-311 .elementor-element.elementor-element-22ba779 > .elementor-container{min-height:250px;}
+    .elementor-311 .elementor-element.elementor-element-22ba779 > .elementor-container:after{content:"";min-height:inherit;}
+    .elementor-311 .elementor-element.elementor-element-22ba779:not(.elementor-motion-effects-element-type-background){background-image:url("https://cbcl.com.cy/wp-content/uploads/2019/07/aMG_6759.jpg");background-position:0px -600px;background-size:cover;}
+    .elementor-311 .elementor-element.elementor-element-22ba779 > .elementor-background-overlay{background-color:#000000;opacity:0.5;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}
+    .elementor-311 .elementor-element.elementor-element-22ba779{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}
+    .elementor-311 .elementor-element.elementor-element-ddaa268{text-align:center;}
+    .elementor-311 .elementor-element.elementor-element-ddaa268.elementor-widget-heading .elementor-heading-title{color:#ffffff;}
+    .elementor-311 .elementor-element.elementor-element-ddaa268 .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:40px;}
+    .elementor-311 .elementor-element.elementor-element-567ba65 > .elementor-container{min-height:400px;}
+    .elementor-311 .elementor-element.elementor-element-567ba65 > .elementor-container:after{content:"";min-height:inherit;}
+    .elementor-311 .elementor-element.elementor-element-567ba65 > .elementor-background-overlay{background-image:url("https://cbcl.com.cy/wp-content/uploads/2019/07/aMG_6743.jpg");background-position:center center;background-size:cover;opacity:0.05;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}
+    .elementor-311 .elementor-element.elementor-element-567ba65{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;}
+    .elementor-311 .elementor-element.elementor-element-f750fff.elementor-column .elementor-column-wrap{align-items:center;}
+    .elementor-311 .elementor-element.elementor-element-f750fff.elementor-column > .elementor-column-wrap > .elementor-widget-wrap{align-content:center;}
+    .elementor-311 .elementor-element.elementor-element-f750fff > .elementor-element-populated{margin:0px 0px 0px 0px;}
+    .elementor-311 .elementor-element.elementor-element-2fe9c15.elementor-column .elementor-column-wrap{align-items:flex-start;}
+    .elementor-311 .elementor-element.elementor-element-2fe9c15.elementor-column > .elementor-column-wrap > .elementor-widget-wrap{align-content:flex-start;justify-content:center;}
+    .elementor-311 .elementor-element.elementor-element-6f82c7e.elementor-view-stacked .elementor-icon{background-color:#e5b700;color:#ffffff;}
+    .elementor-311 .elementor-element.elementor-element-6f82c7e.elementor-position-top .elementor-icon-box-icon{margin-bottom:15px;}
+    .elementor-311 .elementor-element.elementor-element-6f82c7e .elementor-icon{font-size:40px;}
+    .elementor-311 .elementor-element.elementor-element-6f82c7e .elementor-icon i{transform:rotate(0deg);}
+    .elementor-311 .elementor-element.elementor-element-6f82c7e .elementor-icon-box-wrapper{text-align:center;}
+    .elementor-311 .elementor-element.elementor-element-6f82c7e .elementor-icon-box-content .elementor-icon-box-title{color:#77787b;font-size:24px;font-weight:600;}
+    .elementor-311 .elementor-element.elementor-element-6f82c7e .elementor-icon-box-content .elementor-icon-box-description{color:#54595f;font-size:20px;font-weight:300;line-height:1.6em;}
+    .elementor-311 .elementor-element.elementor-element-61c0633.elementor-column .elementor-column-wrap{align-items:flex-start;}
+    .elementor-311 .elementor-element.elementor-element-61c0633.elementor-column > .elementor-column-wrap > .elementor-widget-wrap{align-content:flex-start;justify-content:center;}
+    .elementor-311 .elementor-element.elementor-element-c151859.elementor-view-stacked .elementor-icon{background-color:#e5b700;color:#ffffff;}
+    .elementor-311 .elementor-element.elementor-element-c151859.elementor-position-top .elementor-icon-box-icon{margin-bottom:15px;}
+    .elementor-311 .elementor-element.elementor-element-c151859 .elementor-icon{font-size:40px;}
+    .elementor-311 .elementor-element.elementor-element-c151859 .elementor-icon i{transform:rotate(0deg);}
+    .elementor-311 .elementor-element.elementor-element-c151859 .elementor-icon-box-wrapper{text-align:center;}
+    .elementor-311 .elementor-element.elementor-element-c151859 .elementor-icon-box-content .elementor-icon-box-title{color:#77787b;font-size:24px;font-weight:600;}
+    .elementor-311 .elementor-element.elementor-element-c151859 .elementor-icon-box-content .elementor-icon-box-description{color:#54595f;font-size:20px;font-weight:300;line-height:1.6em;}
+    .elementor-311 .elementor-element.elementor-element-3460a36.elementor-column .elementor-column-wrap{align-items:flex-start;}
+    .elementor-311 .elementor-element.elementor-element-3460a36.elementor-column > .elementor-column-wrap > .elementor-widget-wrap{align-content:flex-start;justify-content:center;}
+    .elementor-311 .elementor-element.elementor-element-eb03fb2.elementor-view-stacked .elementor-icon{background-color:#e5b700;color:#ffffff;}
+    .elementor-311 .elementor-element.elementor-element-eb03fb2.elementor-position-top .elementor-icon-box-icon{margin-bottom:15px;}
+    .elementor-311 .elementor-element.elementor-element-eb03fb2 .elementor-icon{font-size:40px;}
+    .elementor-311 .elementor-element.elementor-element-eb03fb2 .elementor-icon i{transform:rotate(0deg);}
+    .elementor-311 .elementor-element.elementor-element-eb03fb2 .elementor-icon-box-wrapper{text-align:center;}
+    .elementor-311 .elementor-element.elementor-element-eb03fb2 .elementor-icon-box-content .elementor-icon-box-title{color:#77787b;font-size:24px;font-weight:600;}
+    .elementor-311 .elementor-element.elementor-element-eb03fb2 .elementor-icon-box-content .elementor-icon-box-description{color:#54595f;font-size:20px;font-weight:300;line-height:1.6em;}
+    .elementor-311 .elementor-element.elementor-element-4257b2d > .elementor-container{min-height:120px;}
+    .elementor-311 .elementor-element.elementor-element-4257b2d > .elementor-container:after{content:"";min-height:inherit;}
+    .elementor-311 .elementor-element.elementor-element-4257b2d:not(.elementor-motion-effects-element-type-background){background-color:#e5b700;}
+    .elementor-311 .elementor-element.elementor-element-4257b2d{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}
+    .elementor-311 .elementor-element.elementor-element-5e17ea8{text-align:center;}
+    .elementor-311 .elementor-element.elementor-element-5e17ea8.elementor-widget-heading .elementor-heading-title{color:#54595f;}
+    .elementor-311 .elementor-element.elementor-element-5e17ea8 .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-weight:500;}
+    @media (max-width:1024px){
+        .elementor-311 .elementor-element.elementor-element-6f82c7e .elementor-icon-box-content .elementor-icon-box-title{font-size:20px;}
+        .elementor-311 .elementor-element.elementor-element-c151859 .elementor-icon-box-content .elementor-icon-box-title{font-size:20px;}
+        .elementor-311 .elementor-element.elementor-element-eb03fb2 .elementor-icon-box-content .elementor-icon-box-title{font-size:20px;}
+    }
+    @media (min-width:1025px){
+        .elementor-311 .elementor-element.elementor-element-22ba779:not(.elementor-motion-effects-element-type-background){background-attachment:scroll;}
+    }
+    @media (max-width:767px){
+        .elementor-311 .elementor-element.elementor-element-ddaa268{text-align:center;}
+        .elementor-311 .elementor-element.elementor-element-ddaa268 .elementor-heading-title{font-size:30px;}
+        .elementor-311 .elementor-element.elementor-element-514561c{padding:30px 30px 30px 30px;}
+        .elementor-311 .elementor-element.elementor-element-6f82c7e .elementor-icon-box-icon{margin-bottom:15px;}
+        .elementor-311 .elementor-element.elementor-element-c151859 .elementor-icon-box-icon{margin-bottom:15px;}
+        .elementor-311 .elementor-element.elementor-element-eb03fb2 .elementor-icon-box-icon{margin-bottom:15px;}
+    }
+}
+/*! CSS Used from: https://cbcl.com.cy/wp-content/uploads/pum/pum-site-styles.css?generated=1589276635&ver=1.10.1 ; media=all */
+@media all{
+    .pum-container .pum-content>:last-child{margin-bottom:0;}
+    .pum-container,.pum-content,.pum-content+.pum-close,.pum-content+.pum-close:active,.pum-content+.pum-close:focus,.pum-content+.pum-close:hover,.pum-overlay,.pum-title{background:0 0;border:none;bottom:auto;clear:none;cursor:default;float:none;font-family:inherit;font-size:medium;font-style:normal;font-weight:400;height:auto;left:auto;letter-spacing:normal;line-height:normal;max-height:none;max-width:none;min-height:0;min-width:0;overflow:visible;position:static;right:auto;text-align:left;text-decoration:none;text-indent:0;text-transform:none;top:auto;visibility:visible;white-space:normal;width:auto;z-index:auto;}
+    .pum-content,.pum-title{position:relative;z-index:1;}
+    .pum-overlay{position:fixed;}
+    .pum-overlay{height:100%;width:100%;top:0;left:0;right:0;bottom:0;z-index:1999999999;overflow:initial;display:none;transition:.15s ease-in-out;}
+    .pum-overlay,.pum-overlay *,.pum-overlay :after,.pum-overlay :before,.pum-overlay:after,.pum-overlay:before{box-sizing:border-box;}
+    .pum-container{top:100px;position:absolute;margin-bottom:3em;z-index:1999999999;}
+    .pum-container.pum-responsive{left:50%;margin-left:-47.5%;width:95%;height:auto;overflow:visible;}
+    @media only screen and (min-width:1024px){
+        .pum-container.pum-responsive.pum-responsive-small{margin-left:-20%;width:40%;}
+    }
+    .pum-container .pum-content+.pum-close{text-decoration:none;text-align:center;line-height:1;position:absolute;cursor:pointer;min-width:1em;z-index:2;background-color:transparent;}
+    .popmake-close{cursor:pointer;}
+    .pum-theme-709,.pum-theme-sea-view-vacancies{background-color:rgba( 0, 0, 0, 0.50 );}
+    .pum-theme-709 .pum-container,.pum-theme-sea-view-vacancies .pum-container{padding:40px;border-radius:0px;border:7px solid #c9c9c9;box-shadow:1px 1px 3px 0px rgba( 2, 2, 2, 0.00 );background-color:rgba( 255, 255, 255, 1.00 );}
+    .pum-theme-709 .pum-title,.pum-theme-sea-view-vacancies .pum-title{color:#8c8c8c;text-align:center;text-shadow:0px 0px 0px rgba( 2, 2, 2, 0.23 );font-family:Montserrat;font-weight:600;font-size:32px;line-height:50px;}
+    .pum-theme-709 .pum-content,.pum-theme-sea-view-vacancies .pum-content{color:#8c8c8c;font-family:Montserrat;font-weight:400;}
+    .pum-theme-709 .pum-content + .pum-close,.pum-theme-sea-view-vacancies .pum-content + .pum-close{position:absolute;height:40px;width:40px;left:auto;right:0px;bottom:auto;top:0px;padding:0px;color:#ffffff;font-family:Montserrat;font-weight:400;font-size:20px;line-height:36px;border:1px none #ffffff;border-radius:0px;box-shadow:1px 1px 3px 0px rgba( 2, 2, 2, 0.23 );text-shadow:0px 0px 0px rgba( 0, 0, 0, 0.23 );background-color:rgba( 229, 183, 0, 1.00 );}
+    #pum-715{z-index:1999999999;}
+}
+/*! CSS Used from: Embedded */
+a{color:#ffffff;}
+a:hover{color:#ffffff;}
+#site-logo #site-logo-inner{height:140px;}
+#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a{line-height:140px;}
+#site-logo #site-logo-inner a img{max-width:170px;}
+#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a{color:#77787b;}
+#site-navigation-wrap .dropdown-menu >li >a:hover,.oceanwp-mobile-menu-icon a:hover{color:#c58c27;}
+.dropdown-menu .sub-menu{border-color:#c58c27;}
+.dropdown-menu ul li a.menu-link{color:#000000;}
+#footer-bottom{background-color:#77787b;}
+#footer-bottom{color:#c4c4c4;}
+#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a{font-family:Montserrat;font-weight:500;font-style:normal;text-transform:capitalize;}
+.dropdown-menu ul li a.menu-link{font-family:Montserrat;text-transform:uppercase;}
+/*! CSS Used fontfaces */
+@font-face{font-family:'FontAwesome';src:url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.eot?v=4.7.0');src:url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.eot#iefix&v=4.7.0') format('embedded-opentype'),url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'simple-line-icons';src:url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.eot?v=2.4.0');src:url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.eot?v=2.4.0#iefix')format('embedded-opentype'),url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0')format('woff2'),url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf?v=2.4.0')format('truetype'),url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff?v=2.4.0')format('woff'),url('https://cbcl.com.cy/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons')format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:100;src:local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz0dL_nz.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:100;src:local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzQdL_nz.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:100;src:local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzwdL_nz.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:100;src:local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzMdL_nz.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:100;src:local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz8dL_nz.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:100;src:local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz4dL_nz.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:100;src:local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzAdLw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:300;src:local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc3CsTKlA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:300;src:local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:300;src:local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc2CsTKlA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:300;src:local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc5CsTKlA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:300;src:local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:300;src:local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc0CsTKlA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:300;src:local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc6CsQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xFIzIFKw.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xMIzIFKw.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xEIzIFKw.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xLIzIFKw.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xGIzIFKw.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xIIzI.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc3CsTKlA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc-CsTKlA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc2CsTKlA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc5CsTKlA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc0CsTKlA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc6CsQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:700;src:local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic3CsTKlA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:700;src:local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic-CsTKlA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:700;src:local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic2CsTKlA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:700;src:local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic5CsTKlA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:700;src:local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:700;src:local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic0CsTKlA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:700;src:local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic6CsQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:900;src:local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc3CsTKlA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:900;src:local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc-CsTKlA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:900;src:local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc2CsTKlA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:900;src:local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc5CsTKlA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:900;src:local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc1CsTKlA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:900;src:local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc0CsTKlA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:italic;font-weight:900;src:local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc6CsQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxFIzIFKw.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxMIzIFKw.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxEIzIFKw.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxLIzIFKw.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxGIzIFKw.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxIIzI.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:900;src:local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:900;src:local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:900;src:local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:900;src:local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:900;src:local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:900;src:local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:900;src:local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:100;src:local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7p29NNpQ.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:100;src:local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7g29NNpQ.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:100;src:local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7r29NNpQ.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:100;src:local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7q29NNpQ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:100;src:local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7k29M.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:200;src:local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:200;src:local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:200;src:local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:200;src:local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:200;src:local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:300;src:local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:300;src:local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:300;src:local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:300;src:local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:300;src:local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400;src:local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459WxRxC7mw9c.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400;src:local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459WxRzS7mw9c.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400;src:local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459WxRxi7mw9c.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400;src:local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459WxRxy7mw9c.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400;src:local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:500;src:local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3z8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:500;src:local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3z-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:500;src:local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3z8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:500;src:local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3z8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:500;src:local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3z_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:600;src:local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrz8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:600;src:local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrz-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:600;src:local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrz8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:600;src:local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrz8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:600;src:local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrz_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:700;src:local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvz8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:700;src:local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvz-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:700;src:local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvz8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:700;src:local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvz8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:700;src:local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvz_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:800;src:local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZbgjz8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:800;src:local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZbgjz-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:800;src:local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZbgjz8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:800;src:local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZbgjz8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:800;src:local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZbgjz_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:900;src:local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZSgnz8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:900;src:local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZSgnz-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:900;src:local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZSgnz8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:900;src:local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZSgnz8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:900;src:local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZSgnz_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxC7mw9c.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRzS7mw9c.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxi7mw9c.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxy7mw9c.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRyS7m.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:200;src:local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:200;src:local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:200;src:local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:200;src:local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:200;src:local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;src:local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;src:local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;src:local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;src:local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;src:local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;src:local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;src:local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;src:local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;src:local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;src:local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxC7mw9c.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRzS7mw9c.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxi7mw9c.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxy7mw9c.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRyS7m.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:100;src:local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7p29NNpQ.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:100;src:local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7g29NNpQ.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:100;src:local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7r29NNpQ.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:100;src:local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7q29NNpQ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:100;src:local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7k29M.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:200;src:local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:200;src:local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:200;src:local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:200;src:local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:200;src:local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:300;src:local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:300;src:local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:300;src:local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:300;src:local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:300;src:local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400;src:local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459WxRxC7mw9c.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400;src:local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459WxRzS7mw9c.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400;src:local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459WxRxi7mw9c.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400;src:local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459WxRxy7mw9c.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400;src:local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:500;src:local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3z8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:500;src:local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3z-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:500;src:local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3z8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:500;src:local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3z8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:500;src:local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3z_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:600;src:local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrz8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:600;src:local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrz-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:600;src:local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrz8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:600;src:local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrz8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:600;src:local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrz_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:700;src:local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvz8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:700;src:local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvz-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:700;src:local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvz8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:700;src:local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvz8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:700;src:local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvz_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:800;src:local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZbgjz8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:800;src:local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZbgjz-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:800;src:local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZbgjz8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:800;src:local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZbgjz8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:800;src:local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZbgjz_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:900;src:local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZSgnz8fZwnCo.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:900;src:local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZSgnz-PZwnCo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:900;src:local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZSgnz8_ZwnCo.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:900;src:local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZSgnz8vZwnCo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:900;src:local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZSgnz_PZw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxC7mw9c.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRzS7mw9c.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxi7mw9c.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxy7mw9c.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100;src:local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRyS7m.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:200;src:local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:200;src:local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:200;src:local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:200;src:local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:200;src:local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;src:local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;src:local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;src:local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;src:local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;src:local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;src:local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;src:local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;src:local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;src:local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;src:local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gTD_u50.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3g3D_u50.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gbD_u50.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}

@@ -773,7 +773,8 @@ css: 35
                                                                          data-element_type="widget"
                                                                          data-widget_type="heading.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">Get in Touch</h2>		</div>
+                                                                            <h2 class="elementor-heading-title elementor-size-default">Get in Touch</h2>
+                                                                        </div>
                                                                     </div>
                                                                     <div class="elementor-element elementor-element-5c410ed eael-wpforms-form-button-full-width elementor-widget elementor-widget-eael-wpforms"
                                                                          data-id="5c410ed"
@@ -785,12 +786,16 @@ css: 35
                                                                                     <form name="contact"
                                                                                           method="post"
                                                                                           data-netlify="true"
+                                                                                          netlify-honeypot="cbcl-bot"
                                                                                           class="wpforms-validate wpforms-form"
                                                                                           action="/thank-you">
                                                                                         <div class="wpforms-field-container">
                                                                                             <div id="wpforms-249-field_4-container"
                                                                                                  class="wpforms-field wpforms-field-name"
                                                                                                  data-field-id="4">
+                                                                                                <p style="display: none">
+                                                                                                    <label>Don’t fill this out if you're human: <input name="cbcl-bot" /></label>
+                                                                                                </p>
                                                                                                 <label class="wpforms-field-label wpforms-label-hide" for="wpforms-249-field_4">
                                                                                                     Name <span class="wpforms-required-label">*</span>
                                                                                                 </label>

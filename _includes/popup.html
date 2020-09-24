@@ -1,4 +1,4 @@
-{% if site.data.settings.popup.enabled == true %}
+{% if site.data.settings.popup_enabled == "yes" %}
 
 <div id="pum-715"
      class="pum pum-overlay pum-theme-709 pum-theme-sea-view-vacancies popmake-overlay auto_open click_open"
@@ -10,19 +10,17 @@
     <div id="popmake-715"
          class="pum-container popmake theme-709 pum-responsive pum-responsive-small responsive size-small">
 
-
-
         <div id="pum_popup_title_715" class="pum-title popmake-title">
-            {{ site.data.settings.popup.title }}
+            {{ site.data.settings.popup_title }}
         </div>
 
         <div class="pum-content popmake-content">
             <hr/>
             <p style="text-align: center; font-size: 22px;">
-                {{ site.data.settings.popup.text }}
+                {{ site.data.settings.popup_text }}
             </p>
             <p style="text-align: center; font-size: 22px;">
-                {{ site.data.settings.popup.info }}
+                {{ site.data.settings.popup_info }}
             </p>
         </div>
 

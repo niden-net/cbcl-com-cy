@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Site Settings"
         name: "settings"
-        file: "site/_data/settings.yml"
+        file: "_data/settings.yml"
         fields:
           - {label: Email, name: email, widget: string}
           - {label: Asset Tag, name: asset_tag, widget: string}

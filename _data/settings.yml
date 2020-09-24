@@ -1,8 +1,7 @@
-title: City Business Center Limassol Offices
-popup:
-  enabled: true
-  title: Sea View Vacancy
-  text: Offices 6 & 8
-  info: Call +357 25 874144
-asset_tag: 20200617091500
+title: "City Business Center Limassol Offices"
+asset_tag: "20200617091500"
 email: offices@cbcl.com.cy
+popup_enabled: "no"
+popup_title: "Sea View Vacancy"
+popup_text: "Offices 6 & 8"
+popup_info: "Call +357 25 874144"

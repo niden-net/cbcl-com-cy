@@ -194,5 +194,50 @@
         "post": {"id": 35, "title": "Home", "excerpt": ""}
     };
 </script>
+<script type="text/javascript">
+    let theForm = document.querySelector("#cbcl-contact-form");
+
+    theForm.addEventListener(
+        'submit',
+        e => {
+            e.preventDefault();
+
+            const formData = new FormData(theForm);
+            fetch(
+                theForm.getAttribute('action'),
+                {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
+                        'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+                    },
+                    body: new URLSearchParams(formData).toString()
+                }
+            )
+            .then(
+                res => {
+                    if (res) {
+                        let thankYou = document.querySelector("#wpforms-confirmation");
+                        thankYou.style.display = 'block';
+                    }
+                }
+            );
+        }
+    );
+
+    //     function(e) {
+    //         e.preventDefault();
+    //
+    //         var $form = $(this);
+    //         $.post(
+    //             $form.attr("action"),
+    //             $form.serialize())
+    //             .then(
+    //                 function() {
+    //                     $("#wpforms-confirmation").show();
+    //                 }
+    //             );
+    //     }
+</script>
 <script type='text/javascript'
         src='/assets/elementor/assets/js/frontend.min.js?ver=2.5.16'></script>

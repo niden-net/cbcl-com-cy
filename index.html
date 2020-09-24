@@ -714,7 +714,8 @@ css: 35
                                                                             <div class="elementor-text-editor elementor-clearfix">
                                                                                 1, Chrysanthou Mylona Str., Panayides Court
                                                                                 <br>5th Floor, 3030 Limassol, Cyprus
-                                                                                </br></div>
+                                                                                <br>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="elementor-element elementor-element-7bccba9 elementor-align-right elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="7bccba9" data-element_type="widget" data-widget_type="icon-list.default">
@@ -751,7 +752,10 @@ css: 35
                                                                 <div class="elementor-widget-wrap">
                                                                     <div class="elementor-element elementor-element-d229f4f elementor-widget elementor-widget-google_maps" data-id="d229f4f" data-element_type="widget" data-widget_type="google_maps.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="elementor-custom-embed"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1%2C%20Chrysanthou%20Mylona%20Street%2C%203030%20Limassol%2C%20Cyprus&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" aria-label="1, Chrysanthou Mylona Street, 3030 Limassol, Cyprus"></iframe></div>		</div>
+                                                                            <div class="elementor-custom-embed">
+                                                                                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1%2C%20Chrysanthou%20Mylona%20Street%2C%203030%20Limassol%2C%20Cyprus&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" aria-label="1, Chrysanthou Mylona Street, 3030 Limassol, Cyprus"></iframe>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -759,20 +763,31 @@ css: 35
                                                     </div>
                                                 </div>
                                             </section>
-                                            <section class="elementor-element elementor-element-4bed969 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="4bed969" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                            <section class="elementor-element elementor-element-4bed969 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
+                                                     data-id="4bed969"
+                                                     data-element_type="section"
+                                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                                 <div class="elementor-background-overlay"></div>
                                                 <div class="elementor-container elementor-column-gap-default">
                                                     <div class="elementor-row">
                                                         <div class="elementor-element elementor-element-af34f09 elementor-column elementor-col-50 elementor-top-column"
                                                              data-id="af34f09"
                                                              data-element_type="column">
-                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                            <div class="elementor-column-wrap  elementor-element-populated"
+                                                                 id="contact-form">
                                                                 <div class="elementor-widget-wrap">
                                                                     <div class="elementor-element elementor-element-5866c8b elementor-widget elementor-widget-heading"
                                                                          data-id="5866c8b"
                                                                          data-element_type="widget"
                                                                          data-widget_type="heading.default">
                                                                         <div class="elementor-widget-container">
+                                                                            <div class="eael-contact-form eael-wpforms eael-contact-form-align-center">
+                                                                                <div class="wpforms-confirmation-container-full wpforms-confirmation-scroll"
+                                                                                     id="wpforms-confirmation"
+                                                                                     style="display: none">
+                                                                                    <p>Thanks for contacting us! We will be in touch with you shortly.</p>
+                                                                                </div>
+                                                                            </div>
                                                                             <h2 class="elementor-heading-title elementor-size-default">Get in Touch</h2>
                                                                         </div>
                                                                     </div>
@@ -783,28 +798,29 @@ css: 35
                                                                         <div class="elementor-widget-container">
                                                                             <div class="eael-contact-form eael-wpforms eael-contact-form-align-center">
                                                                                 <div class="wpforms-container wpforms-container-full" id="wpforms-249">
-                                                                                    <form name="contact"
-                                                                                          method="post"
+                                                                                    <form name="contact-form"
+                                                                                          method="POST"
                                                                                           data-netlify="true"
                                                                                           netlify-honeypot="cbcl-bot"
                                                                                           class="wpforms-validate wpforms-form"
-                                                                                          action="/thank-you">
+                                                                                          id="cbcl-contact-form"
+                                                                                          action="/#contact-form">
                                                                                         <div class="wpforms-field-container">
                                                                                             <div id="wpforms-249-field_4-container"
                                                                                                  class="wpforms-field wpforms-field-name"
                                                                                                  data-field-id="4">
                                                                                                 <p style="display: none">
-                                                                                                    <label>Don’t fill this out if you're human: <input name="cbcl-bot" /></label>
+                                                                                                    <label>Don't fill this out if you're human: <input name="cbcl-bot" /></label>
                                                                                                 </p>
 
-
-                                                                                                <label class="wpforms-field-label wpforms-label-hide" for="wpforms-249-field_4">
+                                                                                                <label class="wpforms-field-label wpforms-label-hide"
+                                                                                                       for="wpforms-249-field_4">
                                                                                                     Name <span class="wpforms-required-label">*</span>
                                                                                                 </label>
                                                                                                 <input type="text"
                                                                                                        id="wpforms-249-field_4"
                                                                                                        class="wpforms-field-large wpforms-field-required"
-                                                                                                       name="cbcl-name"
+                                                                                                       name="Name"
                                                                                                        placeholder="Name"
                                                                                                        required>
                                                                                             </div>
@@ -818,7 +834,7 @@ css: 35
                                                                                                 <input type="email"
                                                                                                        id="wpforms-249-field_3"
                                                                                                        class="wpforms-field-large wpforms-field-required"
-                                                                                                       name="cbcl-email"
+                                                                                                       name="Email"
                                                                                                        placeholder="E-mail"
                                                                                                        required>
                                                                                             </div>
@@ -831,14 +847,14 @@ css: 35
                                                                                                 </label>
                                                                                                 <textarea id="wpforms-249-field_2"
                                                                                                           class="wpforms-field-medium wpforms-field-required"
-                                                                                                          name="cbcl-message"
+                                                                                                          name="Message"
                                                                                                           placeholder="Comment or Message"
                                                                                                           required></textarea>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="wpforms-submit-container" >
                                                                                             <button type="submit"
-                                                                                                    name="cbcl-submit"
+                                                                                                    name="Submit"
                                                                                                     class="wpforms-submit "
                                                                                                     id="wpforms-submit-249"
                                                                                                     value="Send">
@@ -853,13 +869,26 @@ css: 35
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="elementor-element elementor-element-aba798d elementor-column elementor-col-50 elementor-top-column" data-id="aba798d" data-element_type="column">
+
+                                                        <div class="elementor-element elementor-element-aba798d elementor-column elementor-col-50 elementor-top-column"
+                                                             data-id="aba798d"
+                                                             data-element_type="column">
                                                             <div class="elementor-column-wrap  elementor-element-populated">
                                                                 <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-94045db elementor-widget elementor-widget-image" data-id="94045db" data-element_type="widget" data-widget_type="image.default">
+                                                                    <div class="elementor-element elementor-element-94045db elementor-widget elementor-widget-image"
+                                                                         data-id="94045db"
+                                                                         data-element_type="widget"
+                                                                         data-widget_type="image.default">
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
-                                                                                <img width="300" height="157" src="/assets/img/C.B.C.L.-Logo-White-300x157.png" class="attachment-medium size-medium" alt="" srcset="/assets/img/C.B.C.L.-Logo-White-300x157.png 300w, /assets/img/C.B.C.L.-Logo-White.png 600w" sizes="(max-width: 300px) 100vw, 300px" />											</div>
+                                                                                <img width="300"
+                                                                                     height="157"
+                                                                                     src="/assets/img/C.B.C.L.-Logo-White-300x157.png"
+                                                                                     class="attachment-medium size-medium"
+                                                                                     alt=""
+                                                                                     srcset="/assets/img/C.B.C.L.-Logo-White-300x157.png 300w, /assets/img/C.B.C.L.-Logo-White.png 600w"
+                                                                                     sizes="(max-width: 300px) 100vw, 300px" />
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>

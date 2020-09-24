@@ -15,7 +15,7 @@ collections:
         fields:
           - {label: Email, name: email, widget: string}
           - {label: Asset Tag, name: asset_tag, widget: string}
-          - {label: Popup enabled, name: popup_enabled, widget: string}
+          - {label: Popup enabled, name: popup_enabled, widget: boolean, default: false}
           - {label: Popup title, name: popup_title, widget: string}
           - {label: Popup text, name: popup_text, widget: string}
           - {label: Popup info, name: popup_info, widget: string}

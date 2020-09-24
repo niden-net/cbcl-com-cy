@@ -195,19 +195,33 @@
     };
 </script>
 <script type="text/javascript">
-    $("#cbcl-contact-form").submit(
-        function(e) {
+    let theForm = document.querySelector("#cbcl-contact-form");
+
+    theForm.addEventListener(
+        'submit',
+        e => {
             e.preventDefault();
 
-            var $form = $(this);
-            $.post(
-                $form.attr("action"),
-                $form.serialize())
-                .then(
-                    function() {
-                        $("#wpforms-confirmation").show();
+            const formData = new FormData(theForm);
+            fetch(
+                theForm.getAttribute('action'),
+                {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
+                        'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+                    },
+                    body: new URLSearchParams(formData).toString()
+                }
+            )
+            .then(
+                res => {
+                    if (res) {
+                        let thankYou = document.querySelector("#wpforms-confirmation");
+                        thankYou.style.display = 'block';
                     }
-                );
+                }
+            );
         }
     );
 </script>
